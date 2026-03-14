@@ -1,0 +1,37 @@
+@import "./pinka-colors-only.css";
+@utility bg-pinka-app {
+  @apply bg-pinka-1 dark:bg-pinkdarka-1;
+}
+@utility bg-pinka-subtle {
+  @apply bg-pinka-2 dark:bg-pinkdarka-2;
+}
+@utility bg-pinka-ui {
+  @apply bg-pinka-3 dark:bg-pinkdarka-3 hover:bg-pinka-4 dark:hover:bg-pinkdarka-4 active:bg-pinka-5 dark:active:bg-pinkdarka-5;
+}
+@utility bg-pinka-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-pinka-3 dark:hover:bg-pinkdarka-3 active:bg-pinka-4 dark:active:bg-pinkdarka-4;
+}
+@utility bg-pinka-action {
+  @apply bg-pinka-4 dark:bg-pinkdarka-4 hover:bg-pinka-5 dark:hover:bg-pinkdarka-5 active:bg-pinka-6 dark:active:bg-pinkdarka-6;
+}
+@utility bg-pinka-solid {
+  @apply bg-pinka-9 dark:bg-pinkdarka-9 hover:bg-pinka-10 dark:hover:bg-pinkdarka-10;
+}
+@utility border-pinka-dim {
+  @apply border-pinka-6 dark:border-pinkdarka-6;
+}
+@utility border-pinka-normal {
+  @apply border-pinka-7 dark:border-pinkdarka-7 hover:border-pinka-8 dark:hover:border-pinkdarka-8;
+}
+@utility divide-pinka-dim {
+  @apply divide-pinka-6 dark:divide-pinkdarka-6;
+}
+@utility divide-pinka-normal {
+  @apply divide-pinka-7 dark:divide-pinkdarka-7 hover:divide-pinka-8 dark:hover:divide-pinkdarka-8;
+}
+@utility text-pinka-dim {
+  @apply text-pinka-11 dark:text-pinkdarka-11;
+}
+@utility text-pinka-normal {
+  @apply text-pinka-12 dark:text-pinkdarka-12;
+}

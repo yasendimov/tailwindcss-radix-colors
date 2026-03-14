@@ -1,0 +1,37 @@
+@import "./bluea-colors-only.css";
+@utility bg-bluea-app {
+  @apply bg-bluea-1 dark:bg-bluedarka-1;
+}
+@utility bg-bluea-subtle {
+  @apply bg-bluea-2 dark:bg-bluedarka-2;
+}
+@utility bg-bluea-ui {
+  @apply bg-bluea-3 dark:bg-bluedarka-3 hover:bg-bluea-4 dark:hover:bg-bluedarka-4 active:bg-bluea-5 dark:active:bg-bluedarka-5;
+}
+@utility bg-bluea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-bluea-3 dark:hover:bg-bluedarka-3 active:bg-bluea-4 dark:active:bg-bluedarka-4;
+}
+@utility bg-bluea-action {
+  @apply bg-bluea-4 dark:bg-bluedarka-4 hover:bg-bluea-5 dark:hover:bg-bluedarka-5 active:bg-bluea-6 dark:active:bg-bluedarka-6;
+}
+@utility bg-bluea-solid {
+  @apply bg-bluea-9 dark:bg-bluedarka-9 hover:bg-bluea-10 dark:hover:bg-bluedarka-10;
+}
+@utility border-bluea-dim {
+  @apply border-bluea-6 dark:border-bluedarka-6;
+}
+@utility border-bluea-normal {
+  @apply border-bluea-7 dark:border-bluedarka-7 hover:border-bluea-8 dark:hover:border-bluedarka-8;
+}
+@utility divide-bluea-dim {
+  @apply divide-bluea-6 dark:divide-bluedarka-6;
+}
+@utility divide-bluea-normal {
+  @apply divide-bluea-7 dark:divide-bluedarka-7 hover:divide-bluea-8 dark:hover:divide-bluedarka-8;
+}
+@utility text-bluea-dim {
+  @apply text-bluea-11 dark:text-bluedarka-11;
+}
+@utility text-bluea-normal {
+  @apply text-bluea-12 dark:text-bluedarka-12;
+}

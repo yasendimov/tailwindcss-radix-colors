@@ -1,0 +1,37 @@
+@import "./base-colors-only.css";
+@utility bg-base-app {
+  @apply bg-base-1 dark:bg-basedark-1;
+}
+@utility bg-base-subtle {
+  @apply bg-base-2 dark:bg-basedark-2;
+}
+@utility bg-base-ui {
+  @apply bg-base-3 dark:bg-basedark-3 hover:bg-base-4 dark:hover:bg-basedark-4 active:bg-base-5 dark:active:bg-basedark-5;
+}
+@utility bg-base-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-base-3 dark:hover:bg-basedark-3 active:bg-base-4 dark:active:bg-basedark-4;
+}
+@utility bg-base-action {
+  @apply bg-base-4 dark:bg-basedark-4 hover:bg-base-5 dark:hover:bg-basedark-5 active:bg-base-6 dark:active:bg-basedark-6;
+}
+@utility bg-base-solid {
+  @apply bg-base-9 dark:bg-basedark-9 hover:bg-base-10 dark:hover:bg-basedark-10;
+}
+@utility border-base-dim {
+  @apply border-base-6 dark:border-basedark-6;
+}
+@utility border-base-normal {
+  @apply border-base-7 dark:border-basedark-7 hover:border-base-8 dark:hover:border-basedark-8;
+}
+@utility divide-base-dim {
+  @apply divide-base-6 dark:divide-basedark-6;
+}
+@utility divide-base-normal {
+  @apply divide-base-7 dark:divide-basedark-7 hover:divide-base-8 dark:hover:divide-basedark-8;
+}
+@utility text-base-dim {
+  @apply text-base-11 dark:text-basedark-11;
+}
+@utility text-base-normal {
+  @apply text-base-12 dark:text-basedark-12;
+}

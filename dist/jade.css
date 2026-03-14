@@ -1,0 +1,37 @@
+@import "./jade-colors-only.css";
+@utility bg-jade-app {
+  @apply bg-jade-1 dark:bg-jadedark-1;
+}
+@utility bg-jade-subtle {
+  @apply bg-jade-2 dark:bg-jadedark-2;
+}
+@utility bg-jade-ui {
+  @apply bg-jade-3 dark:bg-jadedark-3 hover:bg-jade-4 dark:hover:bg-jadedark-4 active:bg-jade-5 dark:active:bg-jadedark-5;
+}
+@utility bg-jade-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-jade-3 dark:hover:bg-jadedark-3 active:bg-jade-4 dark:active:bg-jadedark-4;
+}
+@utility bg-jade-action {
+  @apply bg-jade-4 dark:bg-jadedark-4 hover:bg-jade-5 dark:hover:bg-jadedark-5 active:bg-jade-6 dark:active:bg-jadedark-6;
+}
+@utility bg-jade-solid {
+  @apply bg-jade-9 dark:bg-jadedark-9 hover:bg-jade-10 dark:hover:bg-jadedark-10;
+}
+@utility border-jade-dim {
+  @apply border-jade-6 dark:border-jadedark-6;
+}
+@utility border-jade-normal {
+  @apply border-jade-7 dark:border-jadedark-7 hover:border-jade-8 dark:hover:border-jadedark-8;
+}
+@utility divide-jade-dim {
+  @apply divide-jade-6 dark:divide-jadedark-6;
+}
+@utility divide-jade-normal {
+  @apply divide-jade-7 dark:divide-jadedark-7 hover:divide-jade-8 dark:hover:divide-jadedark-8;
+}
+@utility text-jade-dim {
+  @apply text-jade-11 dark:text-jadedark-11;
+}
+@utility text-jade-normal {
+  @apply text-jade-12 dark:text-jadedark-12;
+}

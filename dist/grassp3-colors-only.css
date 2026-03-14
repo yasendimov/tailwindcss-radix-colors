@@ -1,0 +1,26 @@
+@theme {
+  --color-grassp3-1: color(display-p3 0.986 0.996 0.985);
+  --color-grassp3-2: color(display-p3 0.966 0.983 0.964);
+  --color-grassp3-3: color(display-p3 0.923 0.965 0.917);
+  --color-grassp3-4: color(display-p3 0.872 0.94 0.865);
+  --color-grassp3-5: color(display-p3 0.811 0.908 0.802);
+  --color-grassp3-6: color(display-p3 0.733 0.864 0.724);
+  --color-grassp3-7: color(display-p3 0.628 0.803 0.622);
+  --color-grassp3-8: color(display-p3 0.477 0.72 0.482);
+  --color-grassp3-9: color(display-p3 0.38 0.647 0.378);
+  --color-grassp3-10: color(display-p3 0.344 0.598 0.342);
+  --color-grassp3-11: color(display-p3 0.263 0.488 0.261);
+  --color-grassp3-12: color(display-p3 0.151 0.233 0.153);
+  --color-grassdarkp3-1: color(display-p3 0.062 0.083 0.067);
+  --color-grassdarkp3-2: color(display-p3 0.083 0.103 0.085);
+  --color-grassdarkp3-3: color(display-p3 0.118 0.163 0.122);
+  --color-grassdarkp3-4: color(display-p3 0.142 0.225 0.15);
+  --color-grassdarkp3-5: color(display-p3 0.178 0.279 0.186);
+  --color-grassdarkp3-6: color(display-p3 0.217 0.337 0.224);
+  --color-grassdarkp3-7: color(display-p3 0.258 0.4 0.264);
+  --color-grassdarkp3-8: color(display-p3 0.302 0.47 0.305);
+  --color-grassdarkp3-9: color(display-p3 0.38 0.647 0.378);
+  --color-grassdarkp3-10: color(display-p3 0.426 0.694 0.426);
+  --color-grassdarkp3-11: color(display-p3 0.535 0.807 0.542);
+  --color-grassdarkp3-12: color(display-p3 0.797 0.936 0.776);
+}

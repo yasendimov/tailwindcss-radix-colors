@@ -1,0 +1,37 @@
+@import "./red-colors-only.css";
+@utility bg-red-app {
+  @apply bg-red-1 dark:bg-reddark-1;
+}
+@utility bg-red-subtle {
+  @apply bg-red-2 dark:bg-reddark-2;
+}
+@utility bg-red-ui {
+  @apply bg-red-3 dark:bg-reddark-3 hover:bg-red-4 dark:hover:bg-reddark-4 active:bg-red-5 dark:active:bg-reddark-5;
+}
+@utility bg-red-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-red-3 dark:hover:bg-reddark-3 active:bg-red-4 dark:active:bg-reddark-4;
+}
+@utility bg-red-action {
+  @apply bg-red-4 dark:bg-reddark-4 hover:bg-red-5 dark:hover:bg-reddark-5 active:bg-red-6 dark:active:bg-reddark-6;
+}
+@utility bg-red-solid {
+  @apply bg-red-9 dark:bg-reddark-9 hover:bg-red-10 dark:hover:bg-reddark-10;
+}
+@utility border-red-dim {
+  @apply border-red-6 dark:border-reddark-6;
+}
+@utility border-red-normal {
+  @apply border-red-7 dark:border-reddark-7 hover:border-red-8 dark:hover:border-reddark-8;
+}
+@utility divide-red-dim {
+  @apply divide-red-6 dark:divide-reddark-6;
+}
+@utility divide-red-normal {
+  @apply divide-red-7 dark:divide-reddark-7 hover:divide-red-8 dark:hover:divide-reddark-8;
+}
+@utility text-red-dim {
+  @apply text-red-11 dark:text-reddark-11;
+}
+@utility text-red-normal {
+  @apply text-red-12 dark:text-reddark-12;
+}

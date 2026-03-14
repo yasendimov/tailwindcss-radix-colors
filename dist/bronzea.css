@@ -1,0 +1,37 @@
+@import "./bronzea-colors-only.css";
+@utility bg-bronzea-app {
+  @apply bg-bronzea-1 dark:bg-bronzedarka-1;
+}
+@utility bg-bronzea-subtle {
+  @apply bg-bronzea-2 dark:bg-bronzedarka-2;
+}
+@utility bg-bronzea-ui {
+  @apply bg-bronzea-3 dark:bg-bronzedarka-3 hover:bg-bronzea-4 dark:hover:bg-bronzedarka-4 active:bg-bronzea-5 dark:active:bg-bronzedarka-5;
+}
+@utility bg-bronzea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-bronzea-3 dark:hover:bg-bronzedarka-3 active:bg-bronzea-4 dark:active:bg-bronzedarka-4;
+}
+@utility bg-bronzea-action {
+  @apply bg-bronzea-4 dark:bg-bronzedarka-4 hover:bg-bronzea-5 dark:hover:bg-bronzedarka-5 active:bg-bronzea-6 dark:active:bg-bronzedarka-6;
+}
+@utility bg-bronzea-solid {
+  @apply bg-bronzea-9 dark:bg-bronzedarka-9 hover:bg-bronzea-10 dark:hover:bg-bronzedarka-10;
+}
+@utility border-bronzea-dim {
+  @apply border-bronzea-6 dark:border-bronzedarka-6;
+}
+@utility border-bronzea-normal {
+  @apply border-bronzea-7 dark:border-bronzedarka-7 hover:border-bronzea-8 dark:hover:border-bronzedarka-8;
+}
+@utility divide-bronzea-dim {
+  @apply divide-bronzea-6 dark:divide-bronzedarka-6;
+}
+@utility divide-bronzea-normal {
+  @apply divide-bronzea-7 dark:divide-bronzedarka-7 hover:divide-bronzea-8 dark:hover:divide-bronzedarka-8;
+}
+@utility text-bronzea-dim {
+  @apply text-bronzea-11 dark:text-bronzedarka-11;
+}
+@utility text-bronzea-normal {
+  @apply text-bronzea-12 dark:text-bronzedarka-12;
+}

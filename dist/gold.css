@@ -1,0 +1,37 @@
+@import "./gold-colors-only.css";
+@utility bg-gold-app {
+  @apply bg-gold-1 dark:bg-golddark-1;
+}
+@utility bg-gold-subtle {
+  @apply bg-gold-2 dark:bg-golddark-2;
+}
+@utility bg-gold-ui {
+  @apply bg-gold-3 dark:bg-golddark-3 hover:bg-gold-4 dark:hover:bg-golddark-4 active:bg-gold-5 dark:active:bg-golddark-5;
+}
+@utility bg-gold-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-gold-3 dark:hover:bg-golddark-3 active:bg-gold-4 dark:active:bg-golddark-4;
+}
+@utility bg-gold-action {
+  @apply bg-gold-4 dark:bg-golddark-4 hover:bg-gold-5 dark:hover:bg-golddark-5 active:bg-gold-6 dark:active:bg-golddark-6;
+}
+@utility bg-gold-solid {
+  @apply bg-gold-9 dark:bg-golddark-9 hover:bg-gold-10 dark:hover:bg-golddark-10;
+}
+@utility border-gold-dim {
+  @apply border-gold-6 dark:border-golddark-6;
+}
+@utility border-gold-normal {
+  @apply border-gold-7 dark:border-golddark-7 hover:border-gold-8 dark:hover:border-golddark-8;
+}
+@utility divide-gold-dim {
+  @apply divide-gold-6 dark:divide-golddark-6;
+}
+@utility divide-gold-normal {
+  @apply divide-gold-7 dark:divide-golddark-7 hover:divide-gold-8 dark:hover:divide-golddark-8;
+}
+@utility text-gold-dim {
+  @apply text-gold-11 dark:text-golddark-11;
+}
+@utility text-gold-normal {
+  @apply text-gold-12 dark:text-golddark-12;
+}

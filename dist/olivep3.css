@@ -1,0 +1,37 @@
+@import "./olivep3-colors-only.css";
+@utility bg-olivep3-app {
+  @apply bg-olivep3-1 dark:bg-olivedarkp3-1;
+}
+@utility bg-olivep3-subtle {
+  @apply bg-olivep3-2 dark:bg-olivedarkp3-2;
+}
+@utility bg-olivep3-ui {
+  @apply bg-olivep3-3 dark:bg-olivedarkp3-3 hover:bg-olivep3-4 dark:hover:bg-olivedarkp3-4 active:bg-olivep3-5 dark:active:bg-olivedarkp3-5;
+}
+@utility bg-olivep3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-olivep3-3 dark:hover:bg-olivedarkp3-3 active:bg-olivep3-4 dark:active:bg-olivedarkp3-4;
+}
+@utility bg-olivep3-action {
+  @apply bg-olivep3-4 dark:bg-olivedarkp3-4 hover:bg-olivep3-5 dark:hover:bg-olivedarkp3-5 active:bg-olivep3-6 dark:active:bg-olivedarkp3-6;
+}
+@utility bg-olivep3-solid {
+  @apply bg-olivep3-9 dark:bg-olivedarkp3-9 hover:bg-olivep3-10 dark:hover:bg-olivedarkp3-10;
+}
+@utility border-olivep3-dim {
+  @apply border-olivep3-6 dark:border-olivedarkp3-6;
+}
+@utility border-olivep3-normal {
+  @apply border-olivep3-7 dark:border-olivedarkp3-7 hover:border-olivep3-8 dark:hover:border-olivedarkp3-8;
+}
+@utility divide-olivep3-dim {
+  @apply divide-olivep3-6 dark:divide-olivedarkp3-6;
+}
+@utility divide-olivep3-normal {
+  @apply divide-olivep3-7 dark:divide-olivedarkp3-7 hover:divide-olivep3-8 dark:hover:divide-olivedarkp3-8;
+}
+@utility text-olivep3-dim {
+  @apply text-olivep3-11 dark:text-olivedarkp3-11;
+}
+@utility text-olivep3-normal {
+  @apply text-olivep3-12 dark:text-olivedarkp3-12;
+}

@@ -1,0 +1,37 @@
+@import "./yellowa-colors-only.css";
+@utility bg-yellowa-app {
+  @apply bg-yellowa-1 dark:bg-yellowdarka-1;
+}
+@utility bg-yellowa-subtle {
+  @apply bg-yellowa-2 dark:bg-yellowdarka-2;
+}
+@utility bg-yellowa-ui {
+  @apply bg-yellowa-3 dark:bg-yellowdarka-3 hover:bg-yellowa-4 dark:hover:bg-yellowdarka-4 active:bg-yellowa-5 dark:active:bg-yellowdarka-5;
+}
+@utility bg-yellowa-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-yellowa-3 dark:hover:bg-yellowdarka-3 active:bg-yellowa-4 dark:active:bg-yellowdarka-4;
+}
+@utility bg-yellowa-action {
+  @apply bg-yellowa-4 dark:bg-yellowdarka-4 hover:bg-yellowa-5 dark:hover:bg-yellowdarka-5 active:bg-yellowa-6 dark:active:bg-yellowdarka-6;
+}
+@utility bg-yellowa-solid {
+  @apply bg-yellowa-9 dark:bg-yellowdarka-9 hover:bg-yellowa-10 dark:hover:bg-yellowdarka-10;
+}
+@utility border-yellowa-dim {
+  @apply border-yellowa-6 dark:border-yellowdarka-6;
+}
+@utility border-yellowa-normal {
+  @apply border-yellowa-7 dark:border-yellowdarka-7 hover:border-yellowa-8 dark:hover:border-yellowdarka-8;
+}
+@utility divide-yellowa-dim {
+  @apply divide-yellowa-6 dark:divide-yellowdarka-6;
+}
+@utility divide-yellowa-normal {
+  @apply divide-yellowa-7 dark:divide-yellowdarka-7 hover:divide-yellowa-8 dark:hover:divide-yellowdarka-8;
+}
+@utility text-yellowa-dim {
+  @apply text-yellowa-11 dark:text-yellowdarka-11;
+}
+@utility text-yellowa-normal {
+  @apply text-yellowa-12 dark:text-yellowdarka-12;
+}

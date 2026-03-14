@@ -1,0 +1,37 @@
+@import "./teala-colors-only.css";
+@utility bg-teala-app {
+  @apply bg-teala-1 dark:bg-tealdarka-1;
+}
+@utility bg-teala-subtle {
+  @apply bg-teala-2 dark:bg-tealdarka-2;
+}
+@utility bg-teala-ui {
+  @apply bg-teala-3 dark:bg-tealdarka-3 hover:bg-teala-4 dark:hover:bg-tealdarka-4 active:bg-teala-5 dark:active:bg-tealdarka-5;
+}
+@utility bg-teala-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-teala-3 dark:hover:bg-tealdarka-3 active:bg-teala-4 dark:active:bg-tealdarka-4;
+}
+@utility bg-teala-action {
+  @apply bg-teala-4 dark:bg-tealdarka-4 hover:bg-teala-5 dark:hover:bg-tealdarka-5 active:bg-teala-6 dark:active:bg-tealdarka-6;
+}
+@utility bg-teala-solid {
+  @apply bg-teala-9 dark:bg-tealdarka-9 hover:bg-teala-10 dark:hover:bg-tealdarka-10;
+}
+@utility border-teala-dim {
+  @apply border-teala-6 dark:border-tealdarka-6;
+}
+@utility border-teala-normal {
+  @apply border-teala-7 dark:border-tealdarka-7 hover:border-teala-8 dark:hover:border-tealdarka-8;
+}
+@utility divide-teala-dim {
+  @apply divide-teala-6 dark:divide-tealdarka-6;
+}
+@utility divide-teala-normal {
+  @apply divide-teala-7 dark:divide-tealdarka-7 hover:divide-teala-8 dark:hover:divide-tealdarka-8;
+}
+@utility text-teala-dim {
+  @apply text-teala-11 dark:text-tealdarka-11;
+}
+@utility text-teala-normal {
+  @apply text-teala-12 dark:text-tealdarka-12;
+}

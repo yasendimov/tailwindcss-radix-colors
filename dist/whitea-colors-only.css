@@ -1,0 +1,14 @@
+@theme {
+  --color-whitea-1: rgba(255, 255, 255, 0.05);
+  --color-whitea-2: rgba(255, 255, 255, 0.1);
+  --color-whitea-3: rgba(255, 255, 255, 0.15);
+  --color-whitea-4: rgba(255, 255, 255, 0.2);
+  --color-whitea-5: rgba(255, 255, 255, 0.3);
+  --color-whitea-6: rgba(255, 255, 255, 0.4);
+  --color-whitea-7: rgba(255, 255, 255, 0.5);
+  --color-whitea-8: rgba(255, 255, 255, 0.6);
+  --color-whitea-9: rgba(255, 255, 255, 0.7);
+  --color-whitea-10: rgba(255, 255, 255, 0.8);
+  --color-whitea-11: rgba(255, 255, 255, 0.9);
+  --color-whitea-12: rgba(255, 255, 255, 0.95);
+}

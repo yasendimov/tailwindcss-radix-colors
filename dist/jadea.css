@@ -1,0 +1,37 @@
+@import "./jadea-colors-only.css";
+@utility bg-jadea-app {
+  @apply bg-jadea-1 dark:bg-jadedarka-1;
+}
+@utility bg-jadea-subtle {
+  @apply bg-jadea-2 dark:bg-jadedarka-2;
+}
+@utility bg-jadea-ui {
+  @apply bg-jadea-3 dark:bg-jadedarka-3 hover:bg-jadea-4 dark:hover:bg-jadedarka-4 active:bg-jadea-5 dark:active:bg-jadedarka-5;
+}
+@utility bg-jadea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-jadea-3 dark:hover:bg-jadedarka-3 active:bg-jadea-4 dark:active:bg-jadedarka-4;
+}
+@utility bg-jadea-action {
+  @apply bg-jadea-4 dark:bg-jadedarka-4 hover:bg-jadea-5 dark:hover:bg-jadedarka-5 active:bg-jadea-6 dark:active:bg-jadedarka-6;
+}
+@utility bg-jadea-solid {
+  @apply bg-jadea-9 dark:bg-jadedarka-9 hover:bg-jadea-10 dark:hover:bg-jadedarka-10;
+}
+@utility border-jadea-dim {
+  @apply border-jadea-6 dark:border-jadedarka-6;
+}
+@utility border-jadea-normal {
+  @apply border-jadea-7 dark:border-jadedarka-7 hover:border-jadea-8 dark:hover:border-jadedarka-8;
+}
+@utility divide-jadea-dim {
+  @apply divide-jadea-6 dark:divide-jadedarka-6;
+}
+@utility divide-jadea-normal {
+  @apply divide-jadea-7 dark:divide-jadedarka-7 hover:divide-jadea-8 dark:hover:divide-jadedarka-8;
+}
+@utility text-jadea-dim {
+  @apply text-jadea-11 dark:text-jadedarka-11;
+}
+@utility text-jadea-normal {
+  @apply text-jadea-12 dark:text-jadedarka-12;
+}

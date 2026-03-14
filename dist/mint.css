@@ -1,0 +1,37 @@
+@import "./mint-colors-only.css";
+@utility bg-mint-app {
+  @apply bg-mint-1 dark:bg-mintdark-1;
+}
+@utility bg-mint-subtle {
+  @apply bg-mint-2 dark:bg-mintdark-2;
+}
+@utility bg-mint-ui {
+  @apply bg-mint-3 dark:bg-mintdark-3 hover:bg-mint-4 dark:hover:bg-mintdark-4 active:bg-mint-5 dark:active:bg-mintdark-5;
+}
+@utility bg-mint-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-mint-3 dark:hover:bg-mintdark-3 active:bg-mint-4 dark:active:bg-mintdark-4;
+}
+@utility bg-mint-action {
+  @apply bg-mint-4 dark:bg-mintdark-4 hover:bg-mint-5 dark:hover:bg-mintdark-5 active:bg-mint-6 dark:active:bg-mintdark-6;
+}
+@utility bg-mint-solid {
+  @apply bg-mint-9 dark:bg-mintdark-9 hover:bg-mint-10 dark:hover:bg-mintdark-10;
+}
+@utility border-mint-dim {
+  @apply border-mint-6 dark:border-mintdark-6;
+}
+@utility border-mint-normal {
+  @apply border-mint-7 dark:border-mintdark-7 hover:border-mint-8 dark:hover:border-mintdark-8;
+}
+@utility divide-mint-dim {
+  @apply divide-mint-6 dark:divide-mintdark-6;
+}
+@utility divide-mint-normal {
+  @apply divide-mint-7 dark:divide-mintdark-7 hover:divide-mint-8 dark:hover:divide-mintdark-8;
+}
+@utility text-mint-dim {
+  @apply text-mint-11 dark:text-mintdark-11;
+}
+@utility text-mint-normal {
+  @apply text-mint-12 dark:text-mintdark-12;
+}

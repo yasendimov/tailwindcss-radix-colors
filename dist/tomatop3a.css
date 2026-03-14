@@ -1,0 +1,37 @@
+@import "./tomatop3a-colors-only.css";
+@utility bg-tomatop3a-app {
+  @apply bg-tomatop3a-1 dark:bg-tomatodarkp3a-1;
+}
+@utility bg-tomatop3a-subtle {
+  @apply bg-tomatop3a-2 dark:bg-tomatodarkp3a-2;
+}
+@utility bg-tomatop3a-ui {
+  @apply bg-tomatop3a-3 dark:bg-tomatodarkp3a-3 hover:bg-tomatop3a-4 dark:hover:bg-tomatodarkp3a-4 active:bg-tomatop3a-5 dark:active:bg-tomatodarkp3a-5;
+}
+@utility bg-tomatop3a-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-tomatop3a-3 dark:hover:bg-tomatodarkp3a-3 active:bg-tomatop3a-4 dark:active:bg-tomatodarkp3a-4;
+}
+@utility bg-tomatop3a-action {
+  @apply bg-tomatop3a-4 dark:bg-tomatodarkp3a-4 hover:bg-tomatop3a-5 dark:hover:bg-tomatodarkp3a-5 active:bg-tomatop3a-6 dark:active:bg-tomatodarkp3a-6;
+}
+@utility bg-tomatop3a-solid {
+  @apply bg-tomatop3a-9 dark:bg-tomatodarkp3a-9 hover:bg-tomatop3a-10 dark:hover:bg-tomatodarkp3a-10;
+}
+@utility border-tomatop3a-dim {
+  @apply border-tomatop3a-6 dark:border-tomatodarkp3a-6;
+}
+@utility border-tomatop3a-normal {
+  @apply border-tomatop3a-7 dark:border-tomatodarkp3a-7 hover:border-tomatop3a-8 dark:hover:border-tomatodarkp3a-8;
+}
+@utility divide-tomatop3a-dim {
+  @apply divide-tomatop3a-6 dark:divide-tomatodarkp3a-6;
+}
+@utility divide-tomatop3a-normal {
+  @apply divide-tomatop3a-7 dark:divide-tomatodarkp3a-7 hover:divide-tomatop3a-8 dark:hover:divide-tomatodarkp3a-8;
+}
+@utility text-tomatop3a-dim {
+  @apply text-tomatop3a-11 dark:text-tomatodarkp3a-11;
+}
+@utility text-tomatop3a-normal {
+  @apply text-tomatop3a-12 dark:text-tomatodarkp3a-12;
+}

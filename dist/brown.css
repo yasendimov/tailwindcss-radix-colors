@@ -1,0 +1,37 @@
+@import "./brown-colors-only.css";
+@utility bg-brown-app {
+  @apply bg-brown-1 dark:bg-browndark-1;
+}
+@utility bg-brown-subtle {
+  @apply bg-brown-2 dark:bg-browndark-2;
+}
+@utility bg-brown-ui {
+  @apply bg-brown-3 dark:bg-browndark-3 hover:bg-brown-4 dark:hover:bg-browndark-4 active:bg-brown-5 dark:active:bg-browndark-5;
+}
+@utility bg-brown-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-brown-3 dark:hover:bg-browndark-3 active:bg-brown-4 dark:active:bg-browndark-4;
+}
+@utility bg-brown-action {
+  @apply bg-brown-4 dark:bg-browndark-4 hover:bg-brown-5 dark:hover:bg-browndark-5 active:bg-brown-6 dark:active:bg-browndark-6;
+}
+@utility bg-brown-solid {
+  @apply bg-brown-9 dark:bg-browndark-9 hover:bg-brown-10 dark:hover:bg-browndark-10;
+}
+@utility border-brown-dim {
+  @apply border-brown-6 dark:border-browndark-6;
+}
+@utility border-brown-normal {
+  @apply border-brown-7 dark:border-browndark-7 hover:border-brown-8 dark:hover:border-browndark-8;
+}
+@utility divide-brown-dim {
+  @apply divide-brown-6 dark:divide-browndark-6;
+}
+@utility divide-brown-normal {
+  @apply divide-brown-7 dark:divide-browndark-7 hover:divide-brown-8 dark:hover:divide-browndark-8;
+}
+@utility text-brown-dim {
+  @apply text-brown-11 dark:text-browndark-11;
+}
+@utility text-brown-normal {
+  @apply text-brown-12 dark:text-browndark-12;
+}

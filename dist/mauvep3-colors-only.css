@@ -1,0 +1,26 @@
+@theme {
+  --color-mauvep3-1: color(display-p3 0.991 0.988 0.992);
+  --color-mauvep3-2: color(display-p3 0.98 0.976 0.984);
+  --color-mauvep3-3: color(display-p3 0.946 0.938 0.952);
+  --color-mauvep3-4: color(display-p3 0.915 0.906 0.925);
+  --color-mauvep3-5: color(display-p3 0.886 0.876 0.901);
+  --color-mauvep3-6: color(display-p3 0.856 0.846 0.875);
+  --color-mauvep3-7: color(display-p3 0.814 0.804 0.84);
+  --color-mauvep3-8: color(display-p3 0.735 0.728 0.777);
+  --color-mauvep3-9: color(display-p3 0.555 0.549 0.596);
+  --color-mauvep3-10: color(display-p3 0.514 0.508 0.552);
+  --color-mauvep3-11: color(display-p3 0.395 0.388 0.424);
+  --color-mauvep3-12: color(display-p3 0.128 0.122 0.147);
+  --color-mauvedarkp3-1: color(display-p3 0.07 0.067 0.074);
+  --color-mauvedarkp3-2: color(display-p3 0.101 0.098 0.105);
+  --color-mauvedarkp3-3: color(display-p3 0.138 0.134 0.144);
+  --color-mauvedarkp3-4: color(display-p3 0.167 0.161 0.175);
+  --color-mauvedarkp3-5: color(display-p3 0.196 0.189 0.206);
+  --color-mauvedarkp3-6: color(display-p3 0.232 0.225 0.245);
+  --color-mauvedarkp3-7: color(display-p3 0.286 0.277 0.302);
+  --color-mauvedarkp3-8: color(display-p3 0.383 0.373 0.408);
+  --color-mauvedarkp3-9: color(display-p3 0.434 0.428 0.467);
+  --color-mauvedarkp3-10: color(display-p3 0.487 0.48 0.519);
+  --color-mauvedarkp3-11: color(display-p3 0.707 0.7 0.735);
+  --color-mauvedarkp3-12: color(display-p3 0.933 0.933 0.94);
+}

@@ -1,0 +1,37 @@
+@import "./yellowp3a-colors-only.css";
+@utility bg-yellowp3a-app {
+  @apply bg-yellowp3a-1 dark:bg-yellowdarkp3a-1;
+}
+@utility bg-yellowp3a-subtle {
+  @apply bg-yellowp3a-2 dark:bg-yellowdarkp3a-2;
+}
+@utility bg-yellowp3a-ui {
+  @apply bg-yellowp3a-3 dark:bg-yellowdarkp3a-3 hover:bg-yellowp3a-4 dark:hover:bg-yellowdarkp3a-4 active:bg-yellowp3a-5 dark:active:bg-yellowdarkp3a-5;
+}
+@utility bg-yellowp3a-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-yellowp3a-3 dark:hover:bg-yellowdarkp3a-3 active:bg-yellowp3a-4 dark:active:bg-yellowdarkp3a-4;
+}
+@utility bg-yellowp3a-action {
+  @apply bg-yellowp3a-4 dark:bg-yellowdarkp3a-4 hover:bg-yellowp3a-5 dark:hover:bg-yellowdarkp3a-5 active:bg-yellowp3a-6 dark:active:bg-yellowdarkp3a-6;
+}
+@utility bg-yellowp3a-solid {
+  @apply bg-yellowp3a-9 dark:bg-yellowdarkp3a-9 hover:bg-yellowp3a-10 dark:hover:bg-yellowdarkp3a-10;
+}
+@utility border-yellowp3a-dim {
+  @apply border-yellowp3a-6 dark:border-yellowdarkp3a-6;
+}
+@utility border-yellowp3a-normal {
+  @apply border-yellowp3a-7 dark:border-yellowdarkp3a-7 hover:border-yellowp3a-8 dark:hover:border-yellowdarkp3a-8;
+}
+@utility divide-yellowp3a-dim {
+  @apply divide-yellowp3a-6 dark:divide-yellowdarkp3a-6;
+}
+@utility divide-yellowp3a-normal {
+  @apply divide-yellowp3a-7 dark:divide-yellowdarkp3a-7 hover:divide-yellowp3a-8 dark:hover:divide-yellowdarkp3a-8;
+}
+@utility text-yellowp3a-dim {
+  @apply text-yellowp3a-11 dark:text-yellowdarkp3a-11;
+}
+@utility text-yellowp3a-normal {
+  @apply text-yellowp3a-12 dark:text-yellowdarkp3a-12;
+}

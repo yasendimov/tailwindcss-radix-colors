@@ -1,0 +1,37 @@
+@import "./rubyp3a-colors-only.css";
+@utility bg-rubyp3a-app {
+  @apply bg-rubyp3a-1 dark:bg-rubydarkp3a-1;
+}
+@utility bg-rubyp3a-subtle {
+  @apply bg-rubyp3a-2 dark:bg-rubydarkp3a-2;
+}
+@utility bg-rubyp3a-ui {
+  @apply bg-rubyp3a-3 dark:bg-rubydarkp3a-3 hover:bg-rubyp3a-4 dark:hover:bg-rubydarkp3a-4 active:bg-rubyp3a-5 dark:active:bg-rubydarkp3a-5;
+}
+@utility bg-rubyp3a-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-rubyp3a-3 dark:hover:bg-rubydarkp3a-3 active:bg-rubyp3a-4 dark:active:bg-rubydarkp3a-4;
+}
+@utility bg-rubyp3a-action {
+  @apply bg-rubyp3a-4 dark:bg-rubydarkp3a-4 hover:bg-rubyp3a-5 dark:hover:bg-rubydarkp3a-5 active:bg-rubyp3a-6 dark:active:bg-rubydarkp3a-6;
+}
+@utility bg-rubyp3a-solid {
+  @apply bg-rubyp3a-9 dark:bg-rubydarkp3a-9 hover:bg-rubyp3a-10 dark:hover:bg-rubydarkp3a-10;
+}
+@utility border-rubyp3a-dim {
+  @apply border-rubyp3a-6 dark:border-rubydarkp3a-6;
+}
+@utility border-rubyp3a-normal {
+  @apply border-rubyp3a-7 dark:border-rubydarkp3a-7 hover:border-rubyp3a-8 dark:hover:border-rubydarkp3a-8;
+}
+@utility divide-rubyp3a-dim {
+  @apply divide-rubyp3a-6 dark:divide-rubydarkp3a-6;
+}
+@utility divide-rubyp3a-normal {
+  @apply divide-rubyp3a-7 dark:divide-rubydarkp3a-7 hover:divide-rubyp3a-8 dark:hover:divide-rubydarkp3a-8;
+}
+@utility text-rubyp3a-dim {
+  @apply text-rubyp3a-11 dark:text-rubydarkp3a-11;
+}
+@utility text-rubyp3a-normal {
+  @apply text-rubyp3a-12 dark:text-rubydarkp3a-12;
+}

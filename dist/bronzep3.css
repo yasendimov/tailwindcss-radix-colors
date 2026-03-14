@@ -1,0 +1,37 @@
+@import "./bronzep3-colors-only.css";
+@utility bg-bronzep3-app {
+  @apply bg-bronzep3-1 dark:bg-bronzedarkp3-1;
+}
+@utility bg-bronzep3-subtle {
+  @apply bg-bronzep3-2 dark:bg-bronzedarkp3-2;
+}
+@utility bg-bronzep3-ui {
+  @apply bg-bronzep3-3 dark:bg-bronzedarkp3-3 hover:bg-bronzep3-4 dark:hover:bg-bronzedarkp3-4 active:bg-bronzep3-5 dark:active:bg-bronzedarkp3-5;
+}
+@utility bg-bronzep3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-bronzep3-3 dark:hover:bg-bronzedarkp3-3 active:bg-bronzep3-4 dark:active:bg-bronzedarkp3-4;
+}
+@utility bg-bronzep3-action {
+  @apply bg-bronzep3-4 dark:bg-bronzedarkp3-4 hover:bg-bronzep3-5 dark:hover:bg-bronzedarkp3-5 active:bg-bronzep3-6 dark:active:bg-bronzedarkp3-6;
+}
+@utility bg-bronzep3-solid {
+  @apply bg-bronzep3-9 dark:bg-bronzedarkp3-9 hover:bg-bronzep3-10 dark:hover:bg-bronzedarkp3-10;
+}
+@utility border-bronzep3-dim {
+  @apply border-bronzep3-6 dark:border-bronzedarkp3-6;
+}
+@utility border-bronzep3-normal {
+  @apply border-bronzep3-7 dark:border-bronzedarkp3-7 hover:border-bronzep3-8 dark:hover:border-bronzedarkp3-8;
+}
+@utility divide-bronzep3-dim {
+  @apply divide-bronzep3-6 dark:divide-bronzedarkp3-6;
+}
+@utility divide-bronzep3-normal {
+  @apply divide-bronzep3-7 dark:divide-bronzedarkp3-7 hover:divide-bronzep3-8 dark:hover:divide-bronzedarkp3-8;
+}
+@utility text-bronzep3-dim {
+  @apply text-bronzep3-11 dark:text-bronzedarkp3-11;
+}
+@utility text-bronzep3-normal {
+  @apply text-bronzep3-12 dark:text-bronzedarkp3-12;
+}

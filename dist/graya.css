@@ -1,0 +1,37 @@
+@import "./graya-colors-only.css";
+@utility bg-graya-app {
+  @apply bg-graya-1 dark:bg-graydarka-1;
+}
+@utility bg-graya-subtle {
+  @apply bg-graya-2 dark:bg-graydarka-2;
+}
+@utility bg-graya-ui {
+  @apply bg-graya-3 dark:bg-graydarka-3 hover:bg-graya-4 dark:hover:bg-graydarka-4 active:bg-graya-5 dark:active:bg-graydarka-5;
+}
+@utility bg-graya-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-graya-3 dark:hover:bg-graydarka-3 active:bg-graya-4 dark:active:bg-graydarka-4;
+}
+@utility bg-graya-action {
+  @apply bg-graya-4 dark:bg-graydarka-4 hover:bg-graya-5 dark:hover:bg-graydarka-5 active:bg-graya-6 dark:active:bg-graydarka-6;
+}
+@utility bg-graya-solid {
+  @apply bg-graya-9 dark:bg-graydarka-9 hover:bg-graya-10 dark:hover:bg-graydarka-10;
+}
+@utility border-graya-dim {
+  @apply border-graya-6 dark:border-graydarka-6;
+}
+@utility border-graya-normal {
+  @apply border-graya-7 dark:border-graydarka-7 hover:border-graya-8 dark:hover:border-graydarka-8;
+}
+@utility divide-graya-dim {
+  @apply divide-graya-6 dark:divide-graydarka-6;
+}
+@utility divide-graya-normal {
+  @apply divide-graya-7 dark:divide-graydarka-7 hover:divide-graya-8 dark:hover:divide-graydarka-8;
+}
+@utility text-graya-dim {
+  @apply text-graya-11 dark:text-graydarka-11;
+}
+@utility text-graya-normal {
+  @apply text-graya-12 dark:text-graydarka-12;
+}

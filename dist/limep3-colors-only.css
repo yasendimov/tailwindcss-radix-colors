@@ -1,0 +1,26 @@
+@theme {
+  --color-limep3-1: color(display-p3 0.989 0.992 0.981);
+  --color-limep3-2: color(display-p3 0.975 0.98 0.954);
+  --color-limep3-3: color(display-p3 0.939 0.965 0.851);
+  --color-limep3-4: color(display-p3 0.896 0.94 0.76);
+  --color-limep3-5: color(display-p3 0.843 0.903 0.678);
+  --color-limep3-6: color(display-p3 0.778 0.852 0.599);
+  --color-limep3-7: color(display-p3 0.694 0.784 0.508);
+  --color-limep3-8: color(display-p3 0.585 0.707 0.378);
+  --color-limep3-9: color(display-p3 0.78 0.928 0.466);
+  --color-limep3-10: color(display-p3 0.734 0.896 0.397);
+  --color-limep3-11: color(display-p3 0.386 0.482 0.227);
+  --color-limep3-12: color(display-p3 0.222 0.25 0.128);
+  --color-limedarkp3-1: color(display-p3 0.067 0.073 0.048);
+  --color-limedarkp3-2: color(display-p3 0.086 0.1 0.067);
+  --color-limedarkp3-3: color(display-p3 0.13 0.16 0.099);
+  --color-limedarkp3-4: color(display-p3 0.172 0.214 0.126);
+  --color-limedarkp3-5: color(display-p3 0.213 0.266 0.153);
+  --color-limedarkp3-6: color(display-p3 0.257 0.321 0.182);
+  --color-limedarkp3-7: color(display-p3 0.307 0.383 0.215);
+  --color-limedarkp3-8: color(display-p3 0.365 0.456 0.25);
+  --color-limedarkp3-9: color(display-p3 0.78 0.928 0.466);
+  --color-limedarkp3-10: color(display-p3 0.865 0.995 0.519);
+  --color-limedarkp3-11: color(display-p3 0.771 0.893 0.485);
+  --color-limedarkp3-12: color(display-p3 0.905 0.966 0.753);
+}

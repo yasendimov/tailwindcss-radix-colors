@@ -1,0 +1,37 @@
+@import "./violeta-colors-only.css";
+@utility bg-violeta-app {
+  @apply bg-violeta-1 dark:bg-violetdarka-1;
+}
+@utility bg-violeta-subtle {
+  @apply bg-violeta-2 dark:bg-violetdarka-2;
+}
+@utility bg-violeta-ui {
+  @apply bg-violeta-3 dark:bg-violetdarka-3 hover:bg-violeta-4 dark:hover:bg-violetdarka-4 active:bg-violeta-5 dark:active:bg-violetdarka-5;
+}
+@utility bg-violeta-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-violeta-3 dark:hover:bg-violetdarka-3 active:bg-violeta-4 dark:active:bg-violetdarka-4;
+}
+@utility bg-violeta-action {
+  @apply bg-violeta-4 dark:bg-violetdarka-4 hover:bg-violeta-5 dark:hover:bg-violetdarka-5 active:bg-violeta-6 dark:active:bg-violetdarka-6;
+}
+@utility bg-violeta-solid {
+  @apply bg-violeta-9 dark:bg-violetdarka-9 hover:bg-violeta-10 dark:hover:bg-violetdarka-10;
+}
+@utility border-violeta-dim {
+  @apply border-violeta-6 dark:border-violetdarka-6;
+}
+@utility border-violeta-normal {
+  @apply border-violeta-7 dark:border-violetdarka-7 hover:border-violeta-8 dark:hover:border-violetdarka-8;
+}
+@utility divide-violeta-dim {
+  @apply divide-violeta-6 dark:divide-violetdarka-6;
+}
+@utility divide-violeta-normal {
+  @apply divide-violeta-7 dark:divide-violetdarka-7 hover:divide-violeta-8 dark:hover:divide-violetdarka-8;
+}
+@utility text-violeta-dim {
+  @apply text-violeta-11 dark:text-violetdarka-11;
+}
+@utility text-violeta-normal {
+  @apply text-violeta-12 dark:text-violetdarka-12;
+}

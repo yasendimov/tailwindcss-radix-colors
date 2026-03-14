@@ -1,0 +1,37 @@
+@import "./bluep3-colors-only.css";
+@utility bg-bluep3-app {
+  @apply bg-bluep3-1 dark:bg-bluedarkp3-1;
+}
+@utility bg-bluep3-subtle {
+  @apply bg-bluep3-2 dark:bg-bluedarkp3-2;
+}
+@utility bg-bluep3-ui {
+  @apply bg-bluep3-3 dark:bg-bluedarkp3-3 hover:bg-bluep3-4 dark:hover:bg-bluedarkp3-4 active:bg-bluep3-5 dark:active:bg-bluedarkp3-5;
+}
+@utility bg-bluep3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-bluep3-3 dark:hover:bg-bluedarkp3-3 active:bg-bluep3-4 dark:active:bg-bluedarkp3-4;
+}
+@utility bg-bluep3-action {
+  @apply bg-bluep3-4 dark:bg-bluedarkp3-4 hover:bg-bluep3-5 dark:hover:bg-bluedarkp3-5 active:bg-bluep3-6 dark:active:bg-bluedarkp3-6;
+}
+@utility bg-bluep3-solid {
+  @apply bg-bluep3-9 dark:bg-bluedarkp3-9 hover:bg-bluep3-10 dark:hover:bg-bluedarkp3-10;
+}
+@utility border-bluep3-dim {
+  @apply border-bluep3-6 dark:border-bluedarkp3-6;
+}
+@utility border-bluep3-normal {
+  @apply border-bluep3-7 dark:border-bluedarkp3-7 hover:border-bluep3-8 dark:hover:border-bluedarkp3-8;
+}
+@utility divide-bluep3-dim {
+  @apply divide-bluep3-6 dark:divide-bluedarkp3-6;
+}
+@utility divide-bluep3-normal {
+  @apply divide-bluep3-7 dark:divide-bluedarkp3-7 hover:divide-bluep3-8 dark:hover:divide-bluedarkp3-8;
+}
+@utility text-bluep3-dim {
+  @apply text-bluep3-11 dark:text-bluedarkp3-11;
+}
+@utility text-bluep3-normal {
+  @apply text-bluep3-12 dark:text-bluedarkp3-12;
+}

@@ -1,0 +1,37 @@
+@import "./teal-colors-only.css";
+@utility bg-teal-app {
+  @apply bg-teal-1 dark:bg-tealdark-1;
+}
+@utility bg-teal-subtle {
+  @apply bg-teal-2 dark:bg-tealdark-2;
+}
+@utility bg-teal-ui {
+  @apply bg-teal-3 dark:bg-tealdark-3 hover:bg-teal-4 dark:hover:bg-tealdark-4 active:bg-teal-5 dark:active:bg-tealdark-5;
+}
+@utility bg-teal-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-teal-3 dark:hover:bg-tealdark-3 active:bg-teal-4 dark:active:bg-tealdark-4;
+}
+@utility bg-teal-action {
+  @apply bg-teal-4 dark:bg-tealdark-4 hover:bg-teal-5 dark:hover:bg-tealdark-5 active:bg-teal-6 dark:active:bg-tealdark-6;
+}
+@utility bg-teal-solid {
+  @apply bg-teal-9 dark:bg-tealdark-9 hover:bg-teal-10 dark:hover:bg-tealdark-10;
+}
+@utility border-teal-dim {
+  @apply border-teal-6 dark:border-tealdark-6;
+}
+@utility border-teal-normal {
+  @apply border-teal-7 dark:border-tealdark-7 hover:border-teal-8 dark:hover:border-tealdark-8;
+}
+@utility divide-teal-dim {
+  @apply divide-teal-6 dark:divide-tealdark-6;
+}
+@utility divide-teal-normal {
+  @apply divide-teal-7 dark:divide-tealdark-7 hover:divide-teal-8 dark:hover:divide-tealdark-8;
+}
+@utility text-teal-dim {
+  @apply text-teal-11 dark:text-tealdark-11;
+}
+@utility text-teal-normal {
+  @apply text-teal-12 dark:text-tealdark-12;
+}

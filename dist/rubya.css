@@ -1,0 +1,37 @@
+@import "./rubya-colors-only.css";
+@utility bg-rubya-app {
+  @apply bg-rubya-1 dark:bg-rubydarka-1;
+}
+@utility bg-rubya-subtle {
+  @apply bg-rubya-2 dark:bg-rubydarka-2;
+}
+@utility bg-rubya-ui {
+  @apply bg-rubya-3 dark:bg-rubydarka-3 hover:bg-rubya-4 dark:hover:bg-rubydarka-4 active:bg-rubya-5 dark:active:bg-rubydarka-5;
+}
+@utility bg-rubya-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-rubya-3 dark:hover:bg-rubydarka-3 active:bg-rubya-4 dark:active:bg-rubydarka-4;
+}
+@utility bg-rubya-action {
+  @apply bg-rubya-4 dark:bg-rubydarka-4 hover:bg-rubya-5 dark:hover:bg-rubydarka-5 active:bg-rubya-6 dark:active:bg-rubydarka-6;
+}
+@utility bg-rubya-solid {
+  @apply bg-rubya-9 dark:bg-rubydarka-9 hover:bg-rubya-10 dark:hover:bg-rubydarka-10;
+}
+@utility border-rubya-dim {
+  @apply border-rubya-6 dark:border-rubydarka-6;
+}
+@utility border-rubya-normal {
+  @apply border-rubya-7 dark:border-rubydarka-7 hover:border-rubya-8 dark:hover:border-rubydarka-8;
+}
+@utility divide-rubya-dim {
+  @apply divide-rubya-6 dark:divide-rubydarka-6;
+}
+@utility divide-rubya-normal {
+  @apply divide-rubya-7 dark:divide-rubydarka-7 hover:divide-rubya-8 dark:hover:divide-rubydarka-8;
+}
+@utility text-rubya-dim {
+  @apply text-rubya-11 dark:text-rubydarka-11;
+}
+@utility text-rubya-normal {
+  @apply text-rubya-12 dark:text-rubydarka-12;
+}

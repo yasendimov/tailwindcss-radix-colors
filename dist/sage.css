@@ -1,0 +1,37 @@
+@import "./sage-colors-only.css";
+@utility bg-sage-app {
+  @apply bg-sage-1 dark:bg-sagedark-1;
+}
+@utility bg-sage-subtle {
+  @apply bg-sage-2 dark:bg-sagedark-2;
+}
+@utility bg-sage-ui {
+  @apply bg-sage-3 dark:bg-sagedark-3 hover:bg-sage-4 dark:hover:bg-sagedark-4 active:bg-sage-5 dark:active:bg-sagedark-5;
+}
+@utility bg-sage-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-sage-3 dark:hover:bg-sagedark-3 active:bg-sage-4 dark:active:bg-sagedark-4;
+}
+@utility bg-sage-action {
+  @apply bg-sage-4 dark:bg-sagedark-4 hover:bg-sage-5 dark:hover:bg-sagedark-5 active:bg-sage-6 dark:active:bg-sagedark-6;
+}
+@utility bg-sage-solid {
+  @apply bg-sage-9 dark:bg-sagedark-9 hover:bg-sage-10 dark:hover:bg-sagedark-10;
+}
+@utility border-sage-dim {
+  @apply border-sage-6 dark:border-sagedark-6;
+}
+@utility border-sage-normal {
+  @apply border-sage-7 dark:border-sagedark-7 hover:border-sage-8 dark:hover:border-sagedark-8;
+}
+@utility divide-sage-dim {
+  @apply divide-sage-6 dark:divide-sagedark-6;
+}
+@utility divide-sage-normal {
+  @apply divide-sage-7 dark:divide-sagedark-7 hover:divide-sage-8 dark:hover:divide-sagedark-8;
+}
+@utility text-sage-dim {
+  @apply text-sage-11 dark:text-sagedark-11;
+}
+@utility text-sage-normal {
+  @apply text-sage-12 dark:text-sagedark-12;
+}

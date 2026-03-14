@@ -1,0 +1,37 @@
+@import "./skyp3a-colors-only.css";
+@utility bg-skyp3a-app {
+  @apply bg-skyp3a-1 dark:bg-skydarkp3a-1;
+}
+@utility bg-skyp3a-subtle {
+  @apply bg-skyp3a-2 dark:bg-skydarkp3a-2;
+}
+@utility bg-skyp3a-ui {
+  @apply bg-skyp3a-3 dark:bg-skydarkp3a-3 hover:bg-skyp3a-4 dark:hover:bg-skydarkp3a-4 active:bg-skyp3a-5 dark:active:bg-skydarkp3a-5;
+}
+@utility bg-skyp3a-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-skyp3a-3 dark:hover:bg-skydarkp3a-3 active:bg-skyp3a-4 dark:active:bg-skydarkp3a-4;
+}
+@utility bg-skyp3a-action {
+  @apply bg-skyp3a-4 dark:bg-skydarkp3a-4 hover:bg-skyp3a-5 dark:hover:bg-skydarkp3a-5 active:bg-skyp3a-6 dark:active:bg-skydarkp3a-6;
+}
+@utility bg-skyp3a-solid {
+  @apply bg-skyp3a-9 dark:bg-skydarkp3a-9 hover:bg-skyp3a-10 dark:hover:bg-skydarkp3a-10;
+}
+@utility border-skyp3a-dim {
+  @apply border-skyp3a-6 dark:border-skydarkp3a-6;
+}
+@utility border-skyp3a-normal {
+  @apply border-skyp3a-7 dark:border-skydarkp3a-7 hover:border-skyp3a-8 dark:hover:border-skydarkp3a-8;
+}
+@utility divide-skyp3a-dim {
+  @apply divide-skyp3a-6 dark:divide-skydarkp3a-6;
+}
+@utility divide-skyp3a-normal {
+  @apply divide-skyp3a-7 dark:divide-skydarkp3a-7 hover:divide-skyp3a-8 dark:hover:divide-skydarkp3a-8;
+}
+@utility text-skyp3a-dim {
+  @apply text-skyp3a-11 dark:text-skydarkp3a-11;
+}
+@utility text-skyp3a-normal {
+  @apply text-skyp3a-12 dark:text-skydarkp3a-12;
+}

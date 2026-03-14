@@ -1,0 +1,37 @@
+@import "./golda-colors-only.css";
+@utility bg-golda-app {
+  @apply bg-golda-1 dark:bg-golddarka-1;
+}
+@utility bg-golda-subtle {
+  @apply bg-golda-2 dark:bg-golddarka-2;
+}
+@utility bg-golda-ui {
+  @apply bg-golda-3 dark:bg-golddarka-3 hover:bg-golda-4 dark:hover:bg-golddarka-4 active:bg-golda-5 dark:active:bg-golddarka-5;
+}
+@utility bg-golda-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-golda-3 dark:hover:bg-golddarka-3 active:bg-golda-4 dark:active:bg-golddarka-4;
+}
+@utility bg-golda-action {
+  @apply bg-golda-4 dark:bg-golddarka-4 hover:bg-golda-5 dark:hover:bg-golddarka-5 active:bg-golda-6 dark:active:bg-golddarka-6;
+}
+@utility bg-golda-solid {
+  @apply bg-golda-9 dark:bg-golddarka-9 hover:bg-golda-10 dark:hover:bg-golddarka-10;
+}
+@utility border-golda-dim {
+  @apply border-golda-6 dark:border-golddarka-6;
+}
+@utility border-golda-normal {
+  @apply border-golda-7 dark:border-golddarka-7 hover:border-golda-8 dark:hover:border-golddarka-8;
+}
+@utility divide-golda-dim {
+  @apply divide-golda-6 dark:divide-golddarka-6;
+}
+@utility divide-golda-normal {
+  @apply divide-golda-7 dark:divide-golddarka-7 hover:divide-golda-8 dark:hover:divide-golddarka-8;
+}
+@utility text-golda-dim {
+  @apply text-golda-11 dark:text-golddarka-11;
+}
+@utility text-golda-normal {
+  @apply text-golda-12 dark:text-golddarka-12;
+}

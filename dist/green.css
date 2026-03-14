@@ -1,0 +1,37 @@
+@import "./green-colors-only.css";
+@utility bg-green-app {
+  @apply bg-green-1 dark:bg-greendark-1;
+}
+@utility bg-green-subtle {
+  @apply bg-green-2 dark:bg-greendark-2;
+}
+@utility bg-green-ui {
+  @apply bg-green-3 dark:bg-greendark-3 hover:bg-green-4 dark:hover:bg-greendark-4 active:bg-green-5 dark:active:bg-greendark-5;
+}
+@utility bg-green-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-green-3 dark:hover:bg-greendark-3 active:bg-green-4 dark:active:bg-greendark-4;
+}
+@utility bg-green-action {
+  @apply bg-green-4 dark:bg-greendark-4 hover:bg-green-5 dark:hover:bg-greendark-5 active:bg-green-6 dark:active:bg-greendark-6;
+}
+@utility bg-green-solid {
+  @apply bg-green-9 dark:bg-greendark-9 hover:bg-green-10 dark:hover:bg-greendark-10;
+}
+@utility border-green-dim {
+  @apply border-green-6 dark:border-greendark-6;
+}
+@utility border-green-normal {
+  @apply border-green-7 dark:border-greendark-7 hover:border-green-8 dark:hover:border-greendark-8;
+}
+@utility divide-green-dim {
+  @apply divide-green-6 dark:divide-greendark-6;
+}
+@utility divide-green-normal {
+  @apply divide-green-7 dark:divide-greendark-7 hover:divide-green-8 dark:hover:divide-greendark-8;
+}
+@utility text-green-dim {
+  @apply text-green-11 dark:text-greendark-11;
+}
+@utility text-green-normal {
+  @apply text-green-12 dark:text-greendark-12;
+}

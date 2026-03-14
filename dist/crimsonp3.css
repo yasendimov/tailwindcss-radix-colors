@@ -1,0 +1,37 @@
+@import "./crimsonp3-colors-only.css";
+@utility bg-crimsonp3-app {
+  @apply bg-crimsonp3-1 dark:bg-crimsondarkp3-1;
+}
+@utility bg-crimsonp3-subtle {
+  @apply bg-crimsonp3-2 dark:bg-crimsondarkp3-2;
+}
+@utility bg-crimsonp3-ui {
+  @apply bg-crimsonp3-3 dark:bg-crimsondarkp3-3 hover:bg-crimsonp3-4 dark:hover:bg-crimsondarkp3-4 active:bg-crimsonp3-5 dark:active:bg-crimsondarkp3-5;
+}
+@utility bg-crimsonp3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-crimsonp3-3 dark:hover:bg-crimsondarkp3-3 active:bg-crimsonp3-4 dark:active:bg-crimsondarkp3-4;
+}
+@utility bg-crimsonp3-action {
+  @apply bg-crimsonp3-4 dark:bg-crimsondarkp3-4 hover:bg-crimsonp3-5 dark:hover:bg-crimsondarkp3-5 active:bg-crimsonp3-6 dark:active:bg-crimsondarkp3-6;
+}
+@utility bg-crimsonp3-solid {
+  @apply bg-crimsonp3-9 dark:bg-crimsondarkp3-9 hover:bg-crimsonp3-10 dark:hover:bg-crimsondarkp3-10;
+}
+@utility border-crimsonp3-dim {
+  @apply border-crimsonp3-6 dark:border-crimsondarkp3-6;
+}
+@utility border-crimsonp3-normal {
+  @apply border-crimsonp3-7 dark:border-crimsondarkp3-7 hover:border-crimsonp3-8 dark:hover:border-crimsondarkp3-8;
+}
+@utility divide-crimsonp3-dim {
+  @apply divide-crimsonp3-6 dark:divide-crimsondarkp3-6;
+}
+@utility divide-crimsonp3-normal {
+  @apply divide-crimsonp3-7 dark:divide-crimsondarkp3-7 hover:divide-crimsonp3-8 dark:hover:divide-crimsondarkp3-8;
+}
+@utility text-crimsonp3-dim {
+  @apply text-crimsonp3-11 dark:text-crimsondarkp3-11;
+}
+@utility text-crimsonp3-normal {
+  @apply text-crimsonp3-12 dark:text-crimsondarkp3-12;
+}

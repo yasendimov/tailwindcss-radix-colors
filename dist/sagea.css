@@ -1,0 +1,37 @@
+@import "./sagea-colors-only.css";
+@utility bg-sagea-app {
+  @apply bg-sagea-1 dark:bg-sagedarka-1;
+}
+@utility bg-sagea-subtle {
+  @apply bg-sagea-2 dark:bg-sagedarka-2;
+}
+@utility bg-sagea-ui {
+  @apply bg-sagea-3 dark:bg-sagedarka-3 hover:bg-sagea-4 dark:hover:bg-sagedarka-4 active:bg-sagea-5 dark:active:bg-sagedarka-5;
+}
+@utility bg-sagea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-sagea-3 dark:hover:bg-sagedarka-3 active:bg-sagea-4 dark:active:bg-sagedarka-4;
+}
+@utility bg-sagea-action {
+  @apply bg-sagea-4 dark:bg-sagedarka-4 hover:bg-sagea-5 dark:hover:bg-sagedarka-5 active:bg-sagea-6 dark:active:bg-sagedarka-6;
+}
+@utility bg-sagea-solid {
+  @apply bg-sagea-9 dark:bg-sagedarka-9 hover:bg-sagea-10 dark:hover:bg-sagedarka-10;
+}
+@utility border-sagea-dim {
+  @apply border-sagea-6 dark:border-sagedarka-6;
+}
+@utility border-sagea-normal {
+  @apply border-sagea-7 dark:border-sagedarka-7 hover:border-sagea-8 dark:hover:border-sagedarka-8;
+}
+@utility divide-sagea-dim {
+  @apply divide-sagea-6 dark:divide-sagedarka-6;
+}
+@utility divide-sagea-normal {
+  @apply divide-sagea-7 dark:divide-sagedarka-7 hover:divide-sagea-8 dark:hover:divide-sagedarka-8;
+}
+@utility text-sagea-dim {
+  @apply text-sagea-11 dark:text-sagedarka-11;
+}
+@utility text-sagea-normal {
+  @apply text-sagea-12 dark:text-sagedarka-12;
+}

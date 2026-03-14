@@ -1,0 +1,37 @@
+@import "./olivea-colors-only.css";
+@utility bg-olivea-app {
+  @apply bg-olivea-1 dark:bg-olivedarka-1;
+}
+@utility bg-olivea-subtle {
+  @apply bg-olivea-2 dark:bg-olivedarka-2;
+}
+@utility bg-olivea-ui {
+  @apply bg-olivea-3 dark:bg-olivedarka-3 hover:bg-olivea-4 dark:hover:bg-olivedarka-4 active:bg-olivea-5 dark:active:bg-olivedarka-5;
+}
+@utility bg-olivea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-olivea-3 dark:hover:bg-olivedarka-3 active:bg-olivea-4 dark:active:bg-olivedarka-4;
+}
+@utility bg-olivea-action {
+  @apply bg-olivea-4 dark:bg-olivedarka-4 hover:bg-olivea-5 dark:hover:bg-olivedarka-5 active:bg-olivea-6 dark:active:bg-olivedarka-6;
+}
+@utility bg-olivea-solid {
+  @apply bg-olivea-9 dark:bg-olivedarka-9 hover:bg-olivea-10 dark:hover:bg-olivedarka-10;
+}
+@utility border-olivea-dim {
+  @apply border-olivea-6 dark:border-olivedarka-6;
+}
+@utility border-olivea-normal {
+  @apply border-olivea-7 dark:border-olivedarka-7 hover:border-olivea-8 dark:hover:border-olivedarka-8;
+}
+@utility divide-olivea-dim {
+  @apply divide-olivea-6 dark:divide-olivedarka-6;
+}
+@utility divide-olivea-normal {
+  @apply divide-olivea-7 dark:divide-olivedarka-7 hover:divide-olivea-8 dark:hover:divide-olivedarka-8;
+}
+@utility text-olivea-dim {
+  @apply text-olivea-11 dark:text-olivedarka-11;
+}
+@utility text-olivea-normal {
+  @apply text-olivea-12 dark:text-olivedarka-12;
+}

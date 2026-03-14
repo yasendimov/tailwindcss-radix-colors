@@ -1,0 +1,37 @@
+@import "./amber-colors-only.css";
+@utility bg-amber-app {
+  @apply bg-amber-1 dark:bg-amberdark-1;
+}
+@utility bg-amber-subtle {
+  @apply bg-amber-2 dark:bg-amberdark-2;
+}
+@utility bg-amber-ui {
+  @apply bg-amber-3 dark:bg-amberdark-3 hover:bg-amber-4 dark:hover:bg-amberdark-4 active:bg-amber-5 dark:active:bg-amberdark-5;
+}
+@utility bg-amber-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-amber-3 dark:hover:bg-amberdark-3 active:bg-amber-4 dark:active:bg-amberdark-4;
+}
+@utility bg-amber-action {
+  @apply bg-amber-4 dark:bg-amberdark-4 hover:bg-amber-5 dark:hover:bg-amberdark-5 active:bg-amber-6 dark:active:bg-amberdark-6;
+}
+@utility bg-amber-solid {
+  @apply bg-amber-9 dark:bg-amberdark-9 hover:bg-amber-10 dark:hover:bg-amberdark-10;
+}
+@utility border-amber-dim {
+  @apply border-amber-6 dark:border-amberdark-6;
+}
+@utility border-amber-normal {
+  @apply border-amber-7 dark:border-amberdark-7 hover:border-amber-8 dark:hover:border-amberdark-8;
+}
+@utility divide-amber-dim {
+  @apply divide-amber-6 dark:divide-amberdark-6;
+}
+@utility divide-amber-normal {
+  @apply divide-amber-7 dark:divide-amberdark-7 hover:divide-amber-8 dark:hover:divide-amberdark-8;
+}
+@utility text-amber-dim {
+  @apply text-amber-11 dark:text-amberdark-11;
+}
+@utility text-amber-normal {
+  @apply text-amber-12 dark:text-amberdark-12;
+}

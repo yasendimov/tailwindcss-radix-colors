@@ -1,0 +1,37 @@
+@import "./irisa-colors-only.css";
+@utility bg-irisa-app {
+  @apply bg-irisa-1 dark:bg-irisdarka-1;
+}
+@utility bg-irisa-subtle {
+  @apply bg-irisa-2 dark:bg-irisdarka-2;
+}
+@utility bg-irisa-ui {
+  @apply bg-irisa-3 dark:bg-irisdarka-3 hover:bg-irisa-4 dark:hover:bg-irisdarka-4 active:bg-irisa-5 dark:active:bg-irisdarka-5;
+}
+@utility bg-irisa-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-irisa-3 dark:hover:bg-irisdarka-3 active:bg-irisa-4 dark:active:bg-irisdarka-4;
+}
+@utility bg-irisa-action {
+  @apply bg-irisa-4 dark:bg-irisdarka-4 hover:bg-irisa-5 dark:hover:bg-irisdarka-5 active:bg-irisa-6 dark:active:bg-irisdarka-6;
+}
+@utility bg-irisa-solid {
+  @apply bg-irisa-9 dark:bg-irisdarka-9 hover:bg-irisa-10 dark:hover:bg-irisdarka-10;
+}
+@utility border-irisa-dim {
+  @apply border-irisa-6 dark:border-irisdarka-6;
+}
+@utility border-irisa-normal {
+  @apply border-irisa-7 dark:border-irisdarka-7 hover:border-irisa-8 dark:hover:border-irisdarka-8;
+}
+@utility divide-irisa-dim {
+  @apply divide-irisa-6 dark:divide-irisdarka-6;
+}
+@utility divide-irisa-normal {
+  @apply divide-irisa-7 dark:divide-irisdarka-7 hover:divide-irisa-8 dark:hover:divide-irisdarka-8;
+}
+@utility text-irisa-dim {
+  @apply text-irisa-11 dark:text-irisdarka-11;
+}
+@utility text-irisa-normal {
+  @apply text-irisa-12 dark:text-irisdarka-12;
+}

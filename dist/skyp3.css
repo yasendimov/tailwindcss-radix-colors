@@ -1,0 +1,37 @@
+@import "./skyp3-colors-only.css";
+@utility bg-skyp3-app {
+  @apply bg-skyp3-1 dark:bg-skydarkp3-1;
+}
+@utility bg-skyp3-subtle {
+  @apply bg-skyp3-2 dark:bg-skydarkp3-2;
+}
+@utility bg-skyp3-ui {
+  @apply bg-skyp3-3 dark:bg-skydarkp3-3 hover:bg-skyp3-4 dark:hover:bg-skydarkp3-4 active:bg-skyp3-5 dark:active:bg-skydarkp3-5;
+}
+@utility bg-skyp3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-skyp3-3 dark:hover:bg-skydarkp3-3 active:bg-skyp3-4 dark:active:bg-skydarkp3-4;
+}
+@utility bg-skyp3-action {
+  @apply bg-skyp3-4 dark:bg-skydarkp3-4 hover:bg-skyp3-5 dark:hover:bg-skydarkp3-5 active:bg-skyp3-6 dark:active:bg-skydarkp3-6;
+}
+@utility bg-skyp3-solid {
+  @apply bg-skyp3-9 dark:bg-skydarkp3-9 hover:bg-skyp3-10 dark:hover:bg-skydarkp3-10;
+}
+@utility border-skyp3-dim {
+  @apply border-skyp3-6 dark:border-skydarkp3-6;
+}
+@utility border-skyp3-normal {
+  @apply border-skyp3-7 dark:border-skydarkp3-7 hover:border-skyp3-8 dark:hover:border-skydarkp3-8;
+}
+@utility divide-skyp3-dim {
+  @apply divide-skyp3-6 dark:divide-skydarkp3-6;
+}
+@utility divide-skyp3-normal {
+  @apply divide-skyp3-7 dark:divide-skydarkp3-7 hover:divide-skyp3-8 dark:hover:divide-skydarkp3-8;
+}
+@utility text-skyp3-dim {
+  @apply text-skyp3-11 dark:text-skydarkp3-11;
+}
+@utility text-skyp3-normal {
+  @apply text-skyp3-12 dark:text-skydarkp3-12;
+}

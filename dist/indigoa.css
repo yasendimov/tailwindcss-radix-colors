@@ -1,0 +1,37 @@
+@import "./indigoa-colors-only.css";
+@utility bg-indigoa-app {
+  @apply bg-indigoa-1 dark:bg-indigodarka-1;
+}
+@utility bg-indigoa-subtle {
+  @apply bg-indigoa-2 dark:bg-indigodarka-2;
+}
+@utility bg-indigoa-ui {
+  @apply bg-indigoa-3 dark:bg-indigodarka-3 hover:bg-indigoa-4 dark:hover:bg-indigodarka-4 active:bg-indigoa-5 dark:active:bg-indigodarka-5;
+}
+@utility bg-indigoa-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-indigoa-3 dark:hover:bg-indigodarka-3 active:bg-indigoa-4 dark:active:bg-indigodarka-4;
+}
+@utility bg-indigoa-action {
+  @apply bg-indigoa-4 dark:bg-indigodarka-4 hover:bg-indigoa-5 dark:hover:bg-indigodarka-5 active:bg-indigoa-6 dark:active:bg-indigodarka-6;
+}
+@utility bg-indigoa-solid {
+  @apply bg-indigoa-9 dark:bg-indigodarka-9 hover:bg-indigoa-10 dark:hover:bg-indigodarka-10;
+}
+@utility border-indigoa-dim {
+  @apply border-indigoa-6 dark:border-indigodarka-6;
+}
+@utility border-indigoa-normal {
+  @apply border-indigoa-7 dark:border-indigodarka-7 hover:border-indigoa-8 dark:hover:border-indigodarka-8;
+}
+@utility divide-indigoa-dim {
+  @apply divide-indigoa-6 dark:divide-indigodarka-6;
+}
+@utility divide-indigoa-normal {
+  @apply divide-indigoa-7 dark:divide-indigodarka-7 hover:divide-indigoa-8 dark:hover:divide-indigodarka-8;
+}
+@utility text-indigoa-dim {
+  @apply text-indigoa-11 dark:text-indigodarka-11;
+}
+@utility text-indigoa-normal {
+  @apply text-indigoa-12 dark:text-indigodarka-12;
+}

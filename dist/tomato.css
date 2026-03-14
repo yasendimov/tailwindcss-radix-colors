@@ -1,0 +1,37 @@
+@import "./tomato-colors-only.css";
+@utility bg-tomato-app {
+  @apply bg-tomato-1 dark:bg-tomatodark-1;
+}
+@utility bg-tomato-subtle {
+  @apply bg-tomato-2 dark:bg-tomatodark-2;
+}
+@utility bg-tomato-ui {
+  @apply bg-tomato-3 dark:bg-tomatodark-3 hover:bg-tomato-4 dark:hover:bg-tomatodark-4 active:bg-tomato-5 dark:active:bg-tomatodark-5;
+}
+@utility bg-tomato-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-tomato-3 dark:hover:bg-tomatodark-3 active:bg-tomato-4 dark:active:bg-tomatodark-4;
+}
+@utility bg-tomato-action {
+  @apply bg-tomato-4 dark:bg-tomatodark-4 hover:bg-tomato-5 dark:hover:bg-tomatodark-5 active:bg-tomato-6 dark:active:bg-tomatodark-6;
+}
+@utility bg-tomato-solid {
+  @apply bg-tomato-9 dark:bg-tomatodark-9 hover:bg-tomato-10 dark:hover:bg-tomatodark-10;
+}
+@utility border-tomato-dim {
+  @apply border-tomato-6 dark:border-tomatodark-6;
+}
+@utility border-tomato-normal {
+  @apply border-tomato-7 dark:border-tomatodark-7 hover:border-tomato-8 dark:hover:border-tomatodark-8;
+}
+@utility divide-tomato-dim {
+  @apply divide-tomato-6 dark:divide-tomatodark-6;
+}
+@utility divide-tomato-normal {
+  @apply divide-tomato-7 dark:divide-tomatodark-7 hover:divide-tomato-8 dark:hover:divide-tomatodark-8;
+}
+@utility text-tomato-dim {
+  @apply text-tomato-11 dark:text-tomatodark-11;
+}
+@utility text-tomato-normal {
+  @apply text-tomato-12 dark:text-tomatodark-12;
+}

@@ -1,0 +1,37 @@
+@import "./ambera-colors-only.css";
+@utility bg-ambera-app {
+  @apply bg-ambera-1 dark:bg-amberdarka-1;
+}
+@utility bg-ambera-subtle {
+  @apply bg-ambera-2 dark:bg-amberdarka-2;
+}
+@utility bg-ambera-ui {
+  @apply bg-ambera-3 dark:bg-amberdarka-3 hover:bg-ambera-4 dark:hover:bg-amberdarka-4 active:bg-ambera-5 dark:active:bg-amberdarka-5;
+}
+@utility bg-ambera-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-ambera-3 dark:hover:bg-amberdarka-3 active:bg-ambera-4 dark:active:bg-amberdarka-4;
+}
+@utility bg-ambera-action {
+  @apply bg-ambera-4 dark:bg-amberdarka-4 hover:bg-ambera-5 dark:hover:bg-amberdarka-5 active:bg-ambera-6 dark:active:bg-amberdarka-6;
+}
+@utility bg-ambera-solid {
+  @apply bg-ambera-9 dark:bg-amberdarka-9 hover:bg-ambera-10 dark:hover:bg-amberdarka-10;
+}
+@utility border-ambera-dim {
+  @apply border-ambera-6 dark:border-amberdarka-6;
+}
+@utility border-ambera-normal {
+  @apply border-ambera-7 dark:border-amberdarka-7 hover:border-ambera-8 dark:hover:border-amberdarka-8;
+}
+@utility divide-ambera-dim {
+  @apply divide-ambera-6 dark:divide-amberdarka-6;
+}
+@utility divide-ambera-normal {
+  @apply divide-ambera-7 dark:divide-amberdarka-7 hover:divide-ambera-8 dark:hover:divide-amberdarka-8;
+}
+@utility text-ambera-dim {
+  @apply text-ambera-11 dark:text-amberdarka-11;
+}
+@utility text-ambera-normal {
+  @apply text-ambera-12 dark:text-amberdarka-12;
+}

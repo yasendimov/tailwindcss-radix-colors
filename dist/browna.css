@@ -1,0 +1,37 @@
+@import "./browna-colors-only.css";
+@utility bg-browna-app {
+  @apply bg-browna-1 dark:bg-browndarka-1;
+}
+@utility bg-browna-subtle {
+  @apply bg-browna-2 dark:bg-browndarka-2;
+}
+@utility bg-browna-ui {
+  @apply bg-browna-3 dark:bg-browndarka-3 hover:bg-browna-4 dark:hover:bg-browndarka-4 active:bg-browna-5 dark:active:bg-browndarka-5;
+}
+@utility bg-browna-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-browna-3 dark:hover:bg-browndarka-3 active:bg-browna-4 dark:active:bg-browndarka-4;
+}
+@utility bg-browna-action {
+  @apply bg-browna-4 dark:bg-browndarka-4 hover:bg-browna-5 dark:hover:bg-browndarka-5 active:bg-browna-6 dark:active:bg-browndarka-6;
+}
+@utility bg-browna-solid {
+  @apply bg-browna-9 dark:bg-browndarka-9 hover:bg-browna-10 dark:hover:bg-browndarka-10;
+}
+@utility border-browna-dim {
+  @apply border-browna-6 dark:border-browndarka-6;
+}
+@utility border-browna-normal {
+  @apply border-browna-7 dark:border-browndarka-7 hover:border-browna-8 dark:hover:border-browndarka-8;
+}
+@utility divide-browna-dim {
+  @apply divide-browna-6 dark:divide-browndarka-6;
+}
+@utility divide-browna-normal {
+  @apply divide-browna-7 dark:divide-browndarka-7 hover:divide-browna-8 dark:hover:divide-browndarka-8;
+}
+@utility text-browna-dim {
+  @apply text-browna-11 dark:text-browndarka-11;
+}
+@utility text-browna-normal {
+  @apply text-browna-12 dark:text-browndarka-12;
+}

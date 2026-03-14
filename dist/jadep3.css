@@ -1,0 +1,37 @@
+@import "./jadep3-colors-only.css";
+@utility bg-jadep3-app {
+  @apply bg-jadep3-1 dark:bg-jadedarkp3-1;
+}
+@utility bg-jadep3-subtle {
+  @apply bg-jadep3-2 dark:bg-jadedarkp3-2;
+}
+@utility bg-jadep3-ui {
+  @apply bg-jadep3-3 dark:bg-jadedarkp3-3 hover:bg-jadep3-4 dark:hover:bg-jadedarkp3-4 active:bg-jadep3-5 dark:active:bg-jadedarkp3-5;
+}
+@utility bg-jadep3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-jadep3-3 dark:hover:bg-jadedarkp3-3 active:bg-jadep3-4 dark:active:bg-jadedarkp3-4;
+}
+@utility bg-jadep3-action {
+  @apply bg-jadep3-4 dark:bg-jadedarkp3-4 hover:bg-jadep3-5 dark:hover:bg-jadedarkp3-5 active:bg-jadep3-6 dark:active:bg-jadedarkp3-6;
+}
+@utility bg-jadep3-solid {
+  @apply bg-jadep3-9 dark:bg-jadedarkp3-9 hover:bg-jadep3-10 dark:hover:bg-jadedarkp3-10;
+}
+@utility border-jadep3-dim {
+  @apply border-jadep3-6 dark:border-jadedarkp3-6;
+}
+@utility border-jadep3-normal {
+  @apply border-jadep3-7 dark:border-jadedarkp3-7 hover:border-jadep3-8 dark:hover:border-jadedarkp3-8;
+}
+@utility divide-jadep3-dim {
+  @apply divide-jadep3-6 dark:divide-jadedarkp3-6;
+}
+@utility divide-jadep3-normal {
+  @apply divide-jadep3-7 dark:divide-jadedarkp3-7 hover:divide-jadep3-8 dark:hover:divide-jadedarkp3-8;
+}
+@utility text-jadep3-dim {
+  @apply text-jadep3-11 dark:text-jadedarkp3-11;
+}
+@utility text-jadep3-normal {
+  @apply text-jadep3-12 dark:text-jadedarkp3-12;
+}

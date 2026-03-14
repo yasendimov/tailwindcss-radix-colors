@@ -1,0 +1,26 @@
+@theme {
+  --color-sagep3a-1: color(display-p3 0.024 0.514 0.267 / 0.016);
+  --color-sagep3a-2: color(display-p3 0.02 0.267 0.145 / 0.032);
+  --color-sagep3a-3: color(display-p3 0.008 0.184 0.125 / 0.067);
+  --color-sagep3a-4: color(display-p3 0.012 0.094 0.051 / 0.095);
+  --color-sagep3a-5: color(display-p3 0.008 0.098 0.035 / 0.126);
+  --color-sagep3a-6: color(display-p3 0.004 0.078 0.027 / 0.157);
+  --color-sagep3a-7: color(display-p3 0 0.059 0.039 / 0.2);
+  --color-sagep3a-8: color(display-p3 0.004 0.047 0.031 / 0.275);
+  --color-sagep3a-9: color(display-p3 0.004 0.059 0.035 / 0.471);
+  --color-sagep3a-10: color(display-p3 0 0.047 0.031 / 0.51);
+  --color-sagep3a-11: color(display-p3 0 0.031 0.02 / 0.624);
+  --color-sagep3a-12: color(display-p3 0 0.027 0.012 / 0.895);
+  --color-sagedarkp3a-1: color(display-p3 0 0 0 / 0);
+  --color-sagedarkp3a-2: color(display-p3 0.976 0.988 0.984 / 0.03);
+  --color-sagedarkp3a-3: color(display-p3 0.992 0.945 0.941 / 0.072);
+  --color-sagedarkp3a-4: color(display-p3 0.988 0.996 0.992 / 0.102);
+  --color-sagedarkp3a-5: color(display-p3 0.992 1 0.996 / 0.131);
+  --color-sagedarkp3a-6: color(display-p3 0.973 1 0.976 / 0.173);
+  --color-sagedarkp3a-7: color(display-p3 0.957 1 0.976 / 0.233);
+  --color-sagedarkp3a-8: color(display-p3 0.957 1 0.984 / 0.334);
+  --color-sagedarkp3a-9: color(display-p3 0.902 1 0.957 / 0.397);
+  --color-sagedarkp3a-10: color(display-p3 0.929 1 0.973 / 0.452);
+  --color-sagedarkp3a-11: color(display-p3 0.969 1 0.988 / 0.688);
+  --color-sagedarkp3a-12: color(display-p3 0.992 1 0.996 / 0.929);
+}

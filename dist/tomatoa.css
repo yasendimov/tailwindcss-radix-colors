@@ -1,0 +1,37 @@
+@import "./tomatoa-colors-only.css";
+@utility bg-tomatoa-app {
+  @apply bg-tomatoa-1 dark:bg-tomatodarka-1;
+}
+@utility bg-tomatoa-subtle {
+  @apply bg-tomatoa-2 dark:bg-tomatodarka-2;
+}
+@utility bg-tomatoa-ui {
+  @apply bg-tomatoa-3 dark:bg-tomatodarka-3 hover:bg-tomatoa-4 dark:hover:bg-tomatodarka-4 active:bg-tomatoa-5 dark:active:bg-tomatodarka-5;
+}
+@utility bg-tomatoa-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-tomatoa-3 dark:hover:bg-tomatodarka-3 active:bg-tomatoa-4 dark:active:bg-tomatodarka-4;
+}
+@utility bg-tomatoa-action {
+  @apply bg-tomatoa-4 dark:bg-tomatodarka-4 hover:bg-tomatoa-5 dark:hover:bg-tomatodarka-5 active:bg-tomatoa-6 dark:active:bg-tomatodarka-6;
+}
+@utility bg-tomatoa-solid {
+  @apply bg-tomatoa-9 dark:bg-tomatodarka-9 hover:bg-tomatoa-10 dark:hover:bg-tomatodarka-10;
+}
+@utility border-tomatoa-dim {
+  @apply border-tomatoa-6 dark:border-tomatodarka-6;
+}
+@utility border-tomatoa-normal {
+  @apply border-tomatoa-7 dark:border-tomatodarka-7 hover:border-tomatoa-8 dark:hover:border-tomatodarka-8;
+}
+@utility divide-tomatoa-dim {
+  @apply divide-tomatoa-6 dark:divide-tomatodarka-6;
+}
+@utility divide-tomatoa-normal {
+  @apply divide-tomatoa-7 dark:divide-tomatodarka-7 hover:divide-tomatoa-8 dark:hover:divide-tomatodarka-8;
+}
+@utility text-tomatoa-dim {
+  @apply text-tomatoa-11 dark:text-tomatodarka-11;
+}
+@utility text-tomatoa-normal {
+  @apply text-tomatoa-12 dark:text-tomatodarka-12;
+}

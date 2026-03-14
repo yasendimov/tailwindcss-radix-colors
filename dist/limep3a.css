@@ -1,0 +1,37 @@
+@import "./limep3a-colors-only.css";
+@utility bg-limep3a-app {
+  @apply bg-limep3a-1 dark:bg-limedarkp3a-1;
+}
+@utility bg-limep3a-subtle {
+  @apply bg-limep3a-2 dark:bg-limedarkp3a-2;
+}
+@utility bg-limep3a-ui {
+  @apply bg-limep3a-3 dark:bg-limedarkp3a-3 hover:bg-limep3a-4 dark:hover:bg-limedarkp3a-4 active:bg-limep3a-5 dark:active:bg-limedarkp3a-5;
+}
+@utility bg-limep3a-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-limep3a-3 dark:hover:bg-limedarkp3a-3 active:bg-limep3a-4 dark:active:bg-limedarkp3a-4;
+}
+@utility bg-limep3a-action {
+  @apply bg-limep3a-4 dark:bg-limedarkp3a-4 hover:bg-limep3a-5 dark:hover:bg-limedarkp3a-5 active:bg-limep3a-6 dark:active:bg-limedarkp3a-6;
+}
+@utility bg-limep3a-solid {
+  @apply bg-limep3a-9 dark:bg-limedarkp3a-9 hover:bg-limep3a-10 dark:hover:bg-limedarkp3a-10;
+}
+@utility border-limep3a-dim {
+  @apply border-limep3a-6 dark:border-limedarkp3a-6;
+}
+@utility border-limep3a-normal {
+  @apply border-limep3a-7 dark:border-limedarkp3a-7 hover:border-limep3a-8 dark:hover:border-limedarkp3a-8;
+}
+@utility divide-limep3a-dim {
+  @apply divide-limep3a-6 dark:divide-limedarkp3a-6;
+}
+@utility divide-limep3a-normal {
+  @apply divide-limep3a-7 dark:divide-limedarkp3a-7 hover:divide-limep3a-8 dark:hover:divide-limedarkp3a-8;
+}
+@utility text-limep3a-dim {
+  @apply text-limep3a-11 dark:text-limedarkp3a-11;
+}
+@utility text-limep3a-normal {
+  @apply text-limep3a-12 dark:text-limedarkp3a-12;
+}

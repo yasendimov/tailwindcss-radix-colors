@@ -1,0 +1,37 @@
+@import "./slate-colors-only.css";
+@utility bg-slate-app {
+  @apply bg-slate-1 dark:bg-slatedark-1;
+}
+@utility bg-slate-subtle {
+  @apply bg-slate-2 dark:bg-slatedark-2;
+}
+@utility bg-slate-ui {
+  @apply bg-slate-3 dark:bg-slatedark-3 hover:bg-slate-4 dark:hover:bg-slatedark-4 active:bg-slate-5 dark:active:bg-slatedark-5;
+}
+@utility bg-slate-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-slate-3 dark:hover:bg-slatedark-3 active:bg-slate-4 dark:active:bg-slatedark-4;
+}
+@utility bg-slate-action {
+  @apply bg-slate-4 dark:bg-slatedark-4 hover:bg-slate-5 dark:hover:bg-slatedark-5 active:bg-slate-6 dark:active:bg-slatedark-6;
+}
+@utility bg-slate-solid {
+  @apply bg-slate-9 dark:bg-slatedark-9 hover:bg-slate-10 dark:hover:bg-slatedark-10;
+}
+@utility border-slate-dim {
+  @apply border-slate-6 dark:border-slatedark-6;
+}
+@utility border-slate-normal {
+  @apply border-slate-7 dark:border-slatedark-7 hover:border-slate-8 dark:hover:border-slatedark-8;
+}
+@utility divide-slate-dim {
+  @apply divide-slate-6 dark:divide-slatedark-6;
+}
+@utility divide-slate-normal {
+  @apply divide-slate-7 dark:divide-slatedark-7 hover:divide-slate-8 dark:hover:divide-slatedark-8;
+}
+@utility text-slate-dim {
+  @apply text-slate-11 dark:text-slatedark-11;
+}
+@utility text-slate-normal {
+  @apply text-slate-12 dark:text-slatedark-12;
+}

@@ -1,0 +1,37 @@
+@import "./sanda-colors-only.css";
+@utility bg-sanda-app {
+  @apply bg-sanda-1 dark:bg-sanddarka-1;
+}
+@utility bg-sanda-subtle {
+  @apply bg-sanda-2 dark:bg-sanddarka-2;
+}
+@utility bg-sanda-ui {
+  @apply bg-sanda-3 dark:bg-sanddarka-3 hover:bg-sanda-4 dark:hover:bg-sanddarka-4 active:bg-sanda-5 dark:active:bg-sanddarka-5;
+}
+@utility bg-sanda-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-sanda-3 dark:hover:bg-sanddarka-3 active:bg-sanda-4 dark:active:bg-sanddarka-4;
+}
+@utility bg-sanda-action {
+  @apply bg-sanda-4 dark:bg-sanddarka-4 hover:bg-sanda-5 dark:hover:bg-sanddarka-5 active:bg-sanda-6 dark:active:bg-sanddarka-6;
+}
+@utility bg-sanda-solid {
+  @apply bg-sanda-9 dark:bg-sanddarka-9 hover:bg-sanda-10 dark:hover:bg-sanddarka-10;
+}
+@utility border-sanda-dim {
+  @apply border-sanda-6 dark:border-sanddarka-6;
+}
+@utility border-sanda-normal {
+  @apply border-sanda-7 dark:border-sanddarka-7 hover:border-sanda-8 dark:hover:border-sanddarka-8;
+}
+@utility divide-sanda-dim {
+  @apply divide-sanda-6 dark:divide-sanddarka-6;
+}
+@utility divide-sanda-normal {
+  @apply divide-sanda-7 dark:divide-sanddarka-7 hover:divide-sanda-8 dark:hover:divide-sanddarka-8;
+}
+@utility text-sanda-dim {
+  @apply text-sanda-11 dark:text-sanddarka-11;
+}
+@utility text-sanda-normal {
+  @apply text-sanda-12 dark:text-sanddarka-12;
+}

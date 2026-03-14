@@ -1,0 +1,37 @@
+@import "./mauvea-colors-only.css";
+@utility bg-mauvea-app {
+  @apply bg-mauvea-1 dark:bg-mauvedarka-1;
+}
+@utility bg-mauvea-subtle {
+  @apply bg-mauvea-2 dark:bg-mauvedarka-2;
+}
+@utility bg-mauvea-ui {
+  @apply bg-mauvea-3 dark:bg-mauvedarka-3 hover:bg-mauvea-4 dark:hover:bg-mauvedarka-4 active:bg-mauvea-5 dark:active:bg-mauvedarka-5;
+}
+@utility bg-mauvea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-mauvea-3 dark:hover:bg-mauvedarka-3 active:bg-mauvea-4 dark:active:bg-mauvedarka-4;
+}
+@utility bg-mauvea-action {
+  @apply bg-mauvea-4 dark:bg-mauvedarka-4 hover:bg-mauvea-5 dark:hover:bg-mauvedarka-5 active:bg-mauvea-6 dark:active:bg-mauvedarka-6;
+}
+@utility bg-mauvea-solid {
+  @apply bg-mauvea-9 dark:bg-mauvedarka-9 hover:bg-mauvea-10 dark:hover:bg-mauvedarka-10;
+}
+@utility border-mauvea-dim {
+  @apply border-mauvea-6 dark:border-mauvedarka-6;
+}
+@utility border-mauvea-normal {
+  @apply border-mauvea-7 dark:border-mauvedarka-7 hover:border-mauvea-8 dark:hover:border-mauvedarka-8;
+}
+@utility divide-mauvea-dim {
+  @apply divide-mauvea-6 dark:divide-mauvedarka-6;
+}
+@utility divide-mauvea-normal {
+  @apply divide-mauvea-7 dark:divide-mauvedarka-7 hover:divide-mauvea-8 dark:hover:divide-mauvedarka-8;
+}
+@utility text-mauvea-dim {
+  @apply text-mauvea-11 dark:text-mauvedarka-11;
+}
+@utility text-mauvea-normal {
+  @apply text-mauvea-12 dark:text-mauvedarka-12;
+}

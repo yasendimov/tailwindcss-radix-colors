@@ -1,0 +1,37 @@
+@import "./blue-colors-only.css";
+@utility bg-blue-app {
+  @apply bg-blue-1 dark:bg-bluedark-1;
+}
+@utility bg-blue-subtle {
+  @apply bg-blue-2 dark:bg-bluedark-2;
+}
+@utility bg-blue-ui {
+  @apply bg-blue-3 dark:bg-bluedark-3 hover:bg-blue-4 dark:hover:bg-bluedark-4 active:bg-blue-5 dark:active:bg-bluedark-5;
+}
+@utility bg-blue-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-blue-3 dark:hover:bg-bluedark-3 active:bg-blue-4 dark:active:bg-bluedark-4;
+}
+@utility bg-blue-action {
+  @apply bg-blue-4 dark:bg-bluedark-4 hover:bg-blue-5 dark:hover:bg-bluedark-5 active:bg-blue-6 dark:active:bg-bluedark-6;
+}
+@utility bg-blue-solid {
+  @apply bg-blue-9 dark:bg-bluedark-9 hover:bg-blue-10 dark:hover:bg-bluedark-10;
+}
+@utility border-blue-dim {
+  @apply border-blue-6 dark:border-bluedark-6;
+}
+@utility border-blue-normal {
+  @apply border-blue-7 dark:border-bluedark-7 hover:border-blue-8 dark:hover:border-bluedark-8;
+}
+@utility divide-blue-dim {
+  @apply divide-blue-6 dark:divide-bluedark-6;
+}
+@utility divide-blue-normal {
+  @apply divide-blue-7 dark:divide-bluedark-7 hover:divide-blue-8 dark:hover:divide-bluedark-8;
+}
+@utility text-blue-dim {
+  @apply text-blue-11 dark:text-bluedark-11;
+}
+@utility text-blue-normal {
+  @apply text-blue-12 dark:text-bluedark-12;
+}

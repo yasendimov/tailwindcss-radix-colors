@@ -1,0 +1,37 @@
+@import "./plump3-colors-only.css";
+@utility bg-plump3-app {
+  @apply bg-plump3-1 dark:bg-plumdarkp3-1;
+}
+@utility bg-plump3-subtle {
+  @apply bg-plump3-2 dark:bg-plumdarkp3-2;
+}
+@utility bg-plump3-ui {
+  @apply bg-plump3-3 dark:bg-plumdarkp3-3 hover:bg-plump3-4 dark:hover:bg-plumdarkp3-4 active:bg-plump3-5 dark:active:bg-plumdarkp3-5;
+}
+@utility bg-plump3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-plump3-3 dark:hover:bg-plumdarkp3-3 active:bg-plump3-4 dark:active:bg-plumdarkp3-4;
+}
+@utility bg-plump3-action {
+  @apply bg-plump3-4 dark:bg-plumdarkp3-4 hover:bg-plump3-5 dark:hover:bg-plumdarkp3-5 active:bg-plump3-6 dark:active:bg-plumdarkp3-6;
+}
+@utility bg-plump3-solid {
+  @apply bg-plump3-9 dark:bg-plumdarkp3-9 hover:bg-plump3-10 dark:hover:bg-plumdarkp3-10;
+}
+@utility border-plump3-dim {
+  @apply border-plump3-6 dark:border-plumdarkp3-6;
+}
+@utility border-plump3-normal {
+  @apply border-plump3-7 dark:border-plumdarkp3-7 hover:border-plump3-8 dark:hover:border-plumdarkp3-8;
+}
+@utility divide-plump3-dim {
+  @apply divide-plump3-6 dark:divide-plumdarkp3-6;
+}
+@utility divide-plump3-normal {
+  @apply divide-plump3-7 dark:divide-plumdarkp3-7 hover:divide-plump3-8 dark:hover:divide-plumdarkp3-8;
+}
+@utility text-plump3-dim {
+  @apply text-plump3-11 dark:text-plumdarkp3-11;
+}
+@utility text-plump3-normal {
+  @apply text-plump3-12 dark:text-plumdarkp3-12;
+}

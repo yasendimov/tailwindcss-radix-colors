@@ -1,0 +1,37 @@
+@import "./amberp3-colors-only.css";
+@utility bg-amberp3-app {
+  @apply bg-amberp3-1 dark:bg-amberdarkp3-1;
+}
+@utility bg-amberp3-subtle {
+  @apply bg-amberp3-2 dark:bg-amberdarkp3-2;
+}
+@utility bg-amberp3-ui {
+  @apply bg-amberp3-3 dark:bg-amberdarkp3-3 hover:bg-amberp3-4 dark:hover:bg-amberdarkp3-4 active:bg-amberp3-5 dark:active:bg-amberdarkp3-5;
+}
+@utility bg-amberp3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-amberp3-3 dark:hover:bg-amberdarkp3-3 active:bg-amberp3-4 dark:active:bg-amberdarkp3-4;
+}
+@utility bg-amberp3-action {
+  @apply bg-amberp3-4 dark:bg-amberdarkp3-4 hover:bg-amberp3-5 dark:hover:bg-amberdarkp3-5 active:bg-amberp3-6 dark:active:bg-amberdarkp3-6;
+}
+@utility bg-amberp3-solid {
+  @apply bg-amberp3-9 dark:bg-amberdarkp3-9 hover:bg-amberp3-10 dark:hover:bg-amberdarkp3-10;
+}
+@utility border-amberp3-dim {
+  @apply border-amberp3-6 dark:border-amberdarkp3-6;
+}
+@utility border-amberp3-normal {
+  @apply border-amberp3-7 dark:border-amberdarkp3-7 hover:border-amberp3-8 dark:hover:border-amberdarkp3-8;
+}
+@utility divide-amberp3-dim {
+  @apply divide-amberp3-6 dark:divide-amberdarkp3-6;
+}
+@utility divide-amberp3-normal {
+  @apply divide-amberp3-7 dark:divide-amberdarkp3-7 hover:divide-amberp3-8 dark:hover:divide-amberdarkp3-8;
+}
+@utility text-amberp3-dim {
+  @apply text-amberp3-11 dark:text-amberdarkp3-11;
+}
+@utility text-amberp3-normal {
+  @apply text-amberp3-12 dark:text-amberdarkp3-12;
+}

@@ -1,0 +1,37 @@
+@import "./iris-colors-only.css";
+@utility bg-iris-app {
+  @apply bg-iris-1 dark:bg-irisdark-1;
+}
+@utility bg-iris-subtle {
+  @apply bg-iris-2 dark:bg-irisdark-2;
+}
+@utility bg-iris-ui {
+  @apply bg-iris-3 dark:bg-irisdark-3 hover:bg-iris-4 dark:hover:bg-irisdark-4 active:bg-iris-5 dark:active:bg-irisdark-5;
+}
+@utility bg-iris-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-iris-3 dark:hover:bg-irisdark-3 active:bg-iris-4 dark:active:bg-irisdark-4;
+}
+@utility bg-iris-action {
+  @apply bg-iris-4 dark:bg-irisdark-4 hover:bg-iris-5 dark:hover:bg-irisdark-5 active:bg-iris-6 dark:active:bg-irisdark-6;
+}
+@utility bg-iris-solid {
+  @apply bg-iris-9 dark:bg-irisdark-9 hover:bg-iris-10 dark:hover:bg-irisdark-10;
+}
+@utility border-iris-dim {
+  @apply border-iris-6 dark:border-irisdark-6;
+}
+@utility border-iris-normal {
+  @apply border-iris-7 dark:border-irisdark-7 hover:border-iris-8 dark:hover:border-irisdark-8;
+}
+@utility divide-iris-dim {
+  @apply divide-iris-6 dark:divide-irisdark-6;
+}
+@utility divide-iris-normal {
+  @apply divide-iris-7 dark:divide-irisdark-7 hover:divide-iris-8 dark:hover:divide-irisdark-8;
+}
+@utility text-iris-dim {
+  @apply text-iris-11 dark:text-irisdark-11;
+}
+@utility text-iris-normal {
+  @apply text-iris-12 dark:text-irisdark-12;
+}

@@ -1,0 +1,37 @@
+@import "./limea-colors-only.css";
+@utility bg-limea-app {
+  @apply bg-limea-1 dark:bg-limedarka-1;
+}
+@utility bg-limea-subtle {
+  @apply bg-limea-2 dark:bg-limedarka-2;
+}
+@utility bg-limea-ui {
+  @apply bg-limea-3 dark:bg-limedarka-3 hover:bg-limea-4 dark:hover:bg-limedarka-4 active:bg-limea-5 dark:active:bg-limedarka-5;
+}
+@utility bg-limea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-limea-3 dark:hover:bg-limedarka-3 active:bg-limea-4 dark:active:bg-limedarka-4;
+}
+@utility bg-limea-action {
+  @apply bg-limea-4 dark:bg-limedarka-4 hover:bg-limea-5 dark:hover:bg-limedarka-5 active:bg-limea-6 dark:active:bg-limedarka-6;
+}
+@utility bg-limea-solid {
+  @apply bg-limea-9 dark:bg-limedarka-9 hover:bg-limea-10 dark:hover:bg-limedarka-10;
+}
+@utility border-limea-dim {
+  @apply border-limea-6 dark:border-limedarka-6;
+}
+@utility border-limea-normal {
+  @apply border-limea-7 dark:border-limedarka-7 hover:border-limea-8 dark:hover:border-limedarka-8;
+}
+@utility divide-limea-dim {
+  @apply divide-limea-6 dark:divide-limedarka-6;
+}
+@utility divide-limea-normal {
+  @apply divide-limea-7 dark:divide-limedarka-7 hover:divide-limea-8 dark:hover:divide-limedarka-8;
+}
+@utility text-limea-dim {
+  @apply text-limea-11 dark:text-limedarka-11;
+}
+@utility text-limea-normal {
+  @apply text-limea-12 dark:text-limedarka-12;
+}

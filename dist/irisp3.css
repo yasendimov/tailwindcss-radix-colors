@@ -1,0 +1,37 @@
+@import "./irisp3-colors-only.css";
+@utility bg-irisp3-app {
+  @apply bg-irisp3-1 dark:bg-irisdarkp3-1;
+}
+@utility bg-irisp3-subtle {
+  @apply bg-irisp3-2 dark:bg-irisdarkp3-2;
+}
+@utility bg-irisp3-ui {
+  @apply bg-irisp3-3 dark:bg-irisdarkp3-3 hover:bg-irisp3-4 dark:hover:bg-irisdarkp3-4 active:bg-irisp3-5 dark:active:bg-irisdarkp3-5;
+}
+@utility bg-irisp3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-irisp3-3 dark:hover:bg-irisdarkp3-3 active:bg-irisp3-4 dark:active:bg-irisdarkp3-4;
+}
+@utility bg-irisp3-action {
+  @apply bg-irisp3-4 dark:bg-irisdarkp3-4 hover:bg-irisp3-5 dark:hover:bg-irisdarkp3-5 active:bg-irisp3-6 dark:active:bg-irisdarkp3-6;
+}
+@utility bg-irisp3-solid {
+  @apply bg-irisp3-9 dark:bg-irisdarkp3-9 hover:bg-irisp3-10 dark:hover:bg-irisdarkp3-10;
+}
+@utility border-irisp3-dim {
+  @apply border-irisp3-6 dark:border-irisdarkp3-6;
+}
+@utility border-irisp3-normal {
+  @apply border-irisp3-7 dark:border-irisdarkp3-7 hover:border-irisp3-8 dark:hover:border-irisdarkp3-8;
+}
+@utility divide-irisp3-dim {
+  @apply divide-irisp3-6 dark:divide-irisdarkp3-6;
+}
+@utility divide-irisp3-normal {
+  @apply divide-irisp3-7 dark:divide-irisdarkp3-7 hover:divide-irisp3-8 dark:hover:divide-irisdarkp3-8;
+}
+@utility text-irisp3-dim {
+  @apply text-irisp3-11 dark:text-irisdarkp3-11;
+}
+@utility text-irisp3-normal {
+  @apply text-irisp3-12 dark:text-irisdarkp3-12;
+}

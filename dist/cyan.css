@@ -1,0 +1,37 @@
+@import "./cyan-colors-only.css";
+@utility bg-cyan-app {
+  @apply bg-cyan-1 dark:bg-cyandark-1;
+}
+@utility bg-cyan-subtle {
+  @apply bg-cyan-2 dark:bg-cyandark-2;
+}
+@utility bg-cyan-ui {
+  @apply bg-cyan-3 dark:bg-cyandark-3 hover:bg-cyan-4 dark:hover:bg-cyandark-4 active:bg-cyan-5 dark:active:bg-cyandark-5;
+}
+@utility bg-cyan-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-cyan-3 dark:hover:bg-cyandark-3 active:bg-cyan-4 dark:active:bg-cyandark-4;
+}
+@utility bg-cyan-action {
+  @apply bg-cyan-4 dark:bg-cyandark-4 hover:bg-cyan-5 dark:hover:bg-cyandark-5 active:bg-cyan-6 dark:active:bg-cyandark-6;
+}
+@utility bg-cyan-solid {
+  @apply bg-cyan-9 dark:bg-cyandark-9 hover:bg-cyan-10 dark:hover:bg-cyandark-10;
+}
+@utility border-cyan-dim {
+  @apply border-cyan-6 dark:border-cyandark-6;
+}
+@utility border-cyan-normal {
+  @apply border-cyan-7 dark:border-cyandark-7 hover:border-cyan-8 dark:hover:border-cyandark-8;
+}
+@utility divide-cyan-dim {
+  @apply divide-cyan-6 dark:divide-cyandark-6;
+}
+@utility divide-cyan-normal {
+  @apply divide-cyan-7 dark:divide-cyandark-7 hover:divide-cyan-8 dark:hover:divide-cyandark-8;
+}
+@utility text-cyan-dim {
+  @apply text-cyan-11 dark:text-cyandark-11;
+}
+@utility text-cyan-normal {
+  @apply text-cyan-12 dark:text-cyandark-12;
+}

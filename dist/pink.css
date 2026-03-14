@@ -1,0 +1,37 @@
+@import "./pink-colors-only.css";
+@utility bg-pink-app {
+  @apply bg-pink-1 dark:bg-pinkdark-1;
+}
+@utility bg-pink-subtle {
+  @apply bg-pink-2 dark:bg-pinkdark-2;
+}
+@utility bg-pink-ui {
+  @apply bg-pink-3 dark:bg-pinkdark-3 hover:bg-pink-4 dark:hover:bg-pinkdark-4 active:bg-pink-5 dark:active:bg-pinkdark-5;
+}
+@utility bg-pink-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-pink-3 dark:hover:bg-pinkdark-3 active:bg-pink-4 dark:active:bg-pinkdark-4;
+}
+@utility bg-pink-action {
+  @apply bg-pink-4 dark:bg-pinkdark-4 hover:bg-pink-5 dark:hover:bg-pinkdark-5 active:bg-pink-6 dark:active:bg-pinkdark-6;
+}
+@utility bg-pink-solid {
+  @apply bg-pink-9 dark:bg-pinkdark-9 hover:bg-pink-10 dark:hover:bg-pinkdark-10;
+}
+@utility border-pink-dim {
+  @apply border-pink-6 dark:border-pinkdark-6;
+}
+@utility border-pink-normal {
+  @apply border-pink-7 dark:border-pinkdark-7 hover:border-pink-8 dark:hover:border-pinkdark-8;
+}
+@utility divide-pink-dim {
+  @apply divide-pink-6 dark:divide-pinkdark-6;
+}
+@utility divide-pink-normal {
+  @apply divide-pink-7 dark:divide-pinkdark-7 hover:divide-pink-8 dark:hover:divide-pinkdark-8;
+}
+@utility text-pink-dim {
+  @apply text-pink-11 dark:text-pinkdark-11;
+}
+@utility text-pink-normal {
+  @apply text-pink-12 dark:text-pinkdark-12;
+}

@@ -1,0 +1,37 @@
+@import "./purplea-colors-only.css";
+@utility bg-purplea-app {
+  @apply bg-purplea-1 dark:bg-purpledarka-1;
+}
+@utility bg-purplea-subtle {
+  @apply bg-purplea-2 dark:bg-purpledarka-2;
+}
+@utility bg-purplea-ui {
+  @apply bg-purplea-3 dark:bg-purpledarka-3 hover:bg-purplea-4 dark:hover:bg-purpledarka-4 active:bg-purplea-5 dark:active:bg-purpledarka-5;
+}
+@utility bg-purplea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-purplea-3 dark:hover:bg-purpledarka-3 active:bg-purplea-4 dark:active:bg-purpledarka-4;
+}
+@utility bg-purplea-action {
+  @apply bg-purplea-4 dark:bg-purpledarka-4 hover:bg-purplea-5 dark:hover:bg-purpledarka-5 active:bg-purplea-6 dark:active:bg-purpledarka-6;
+}
+@utility bg-purplea-solid {
+  @apply bg-purplea-9 dark:bg-purpledarka-9 hover:bg-purplea-10 dark:hover:bg-purpledarka-10;
+}
+@utility border-purplea-dim {
+  @apply border-purplea-6 dark:border-purpledarka-6;
+}
+@utility border-purplea-normal {
+  @apply border-purplea-7 dark:border-purpledarka-7 hover:border-purplea-8 dark:hover:border-purpledarka-8;
+}
+@utility divide-purplea-dim {
+  @apply divide-purplea-6 dark:divide-purpledarka-6;
+}
+@utility divide-purplea-normal {
+  @apply divide-purplea-7 dark:divide-purpledarka-7 hover:divide-purplea-8 dark:hover:divide-purpledarka-8;
+}
+@utility text-purplea-dim {
+  @apply text-purplea-11 dark:text-purpledarka-11;
+}
+@utility text-purplea-normal {
+  @apply text-purplea-12 dark:text-purpledarka-12;
+}

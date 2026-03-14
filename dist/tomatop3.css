@@ -1,0 +1,37 @@
+@import "./tomatop3-colors-only.css";
+@utility bg-tomatop3-app {
+  @apply bg-tomatop3-1 dark:bg-tomatodarkp3-1;
+}
+@utility bg-tomatop3-subtle {
+  @apply bg-tomatop3-2 dark:bg-tomatodarkp3-2;
+}
+@utility bg-tomatop3-ui {
+  @apply bg-tomatop3-3 dark:bg-tomatodarkp3-3 hover:bg-tomatop3-4 dark:hover:bg-tomatodarkp3-4 active:bg-tomatop3-5 dark:active:bg-tomatodarkp3-5;
+}
+@utility bg-tomatop3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-tomatop3-3 dark:hover:bg-tomatodarkp3-3 active:bg-tomatop3-4 dark:active:bg-tomatodarkp3-4;
+}
+@utility bg-tomatop3-action {
+  @apply bg-tomatop3-4 dark:bg-tomatodarkp3-4 hover:bg-tomatop3-5 dark:hover:bg-tomatodarkp3-5 active:bg-tomatop3-6 dark:active:bg-tomatodarkp3-6;
+}
+@utility bg-tomatop3-solid {
+  @apply bg-tomatop3-9 dark:bg-tomatodarkp3-9 hover:bg-tomatop3-10 dark:hover:bg-tomatodarkp3-10;
+}
+@utility border-tomatop3-dim {
+  @apply border-tomatop3-6 dark:border-tomatodarkp3-6;
+}
+@utility border-tomatop3-normal {
+  @apply border-tomatop3-7 dark:border-tomatodarkp3-7 hover:border-tomatop3-8 dark:hover:border-tomatodarkp3-8;
+}
+@utility divide-tomatop3-dim {
+  @apply divide-tomatop3-6 dark:divide-tomatodarkp3-6;
+}
+@utility divide-tomatop3-normal {
+  @apply divide-tomatop3-7 dark:divide-tomatodarkp3-7 hover:divide-tomatop3-8 dark:hover:divide-tomatodarkp3-8;
+}
+@utility text-tomatop3-dim {
+  @apply text-tomatop3-11 dark:text-tomatodarkp3-11;
+}
+@utility text-tomatop3-normal {
+  @apply text-tomatop3-12 dark:text-tomatodarkp3-12;
+}

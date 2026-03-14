@@ -1,0 +1,26 @@
+@theme {
+  --color-tomatop3-1: color(display-p3 0.998 0.989 0.988);
+  --color-tomatop3-2: color(display-p3 0.994 0.974 0.969);
+  --color-tomatop3-3: color(display-p3 0.985 0.924 0.909);
+  --color-tomatop3-4: color(display-p3 0.996 0.868 0.835);
+  --color-tomatop3-5: color(display-p3 0.98 0.812 0.77);
+  --color-tomatop3-6: color(display-p3 0.953 0.75 0.698);
+  --color-tomatop3-7: color(display-p3 0.917 0.673 0.611);
+  --color-tomatop3-8: color(display-p3 0.875 0.575 0.502);
+  --color-tomatop3-9: color(display-p3 0.831 0.345 0.231);
+  --color-tomatop3-10: color(display-p3 0.802 0.313 0.2);
+  --color-tomatop3-11: color(display-p3 0.755 0.259 0.152);
+  --color-tomatop3-12: color(display-p3 0.335 0.165 0.132);
+  --color-tomatodarkp3-1: color(display-p3 0.09 0.068 0.067);
+  --color-tomatodarkp3-2: color(display-p3 0.115 0.084 0.076);
+  --color-tomatodarkp3-3: color(display-p3 0.205 0.097 0.083);
+  --color-tomatodarkp3-4: color(display-p3 0.282 0.099 0.077);
+  --color-tomatodarkp3-5: color(display-p3 0.339 0.129 0.101);
+  --color-tomatodarkp3-6: color(display-p3 0.398 0.179 0.141);
+  --color-tomatodarkp3-7: color(display-p3 0.487 0.245 0.194);
+  --color-tomatodarkp3-8: color(display-p3 0.629 0.322 0.248);
+  --color-tomatodarkp3-9: color(display-p3 0.831 0.345 0.231);
+  --color-tomatodarkp3-10: color(display-p3 0.862 0.415 0.298);
+  --color-tomatodarkp3-11: color(display-p3 1 0.585 0.455);
+  --color-tomatodarkp3-12: color(display-p3 0.959 0.833 0.802);
+}

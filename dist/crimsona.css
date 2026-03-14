@@ -1,0 +1,37 @@
+@import "./crimsona-colors-only.css";
+@utility bg-crimsona-app {
+  @apply bg-crimsona-1 dark:bg-crimsondarka-1;
+}
+@utility bg-crimsona-subtle {
+  @apply bg-crimsona-2 dark:bg-crimsondarka-2;
+}
+@utility bg-crimsona-ui {
+  @apply bg-crimsona-3 dark:bg-crimsondarka-3 hover:bg-crimsona-4 dark:hover:bg-crimsondarka-4 active:bg-crimsona-5 dark:active:bg-crimsondarka-5;
+}
+@utility bg-crimsona-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-crimsona-3 dark:hover:bg-crimsondarka-3 active:bg-crimsona-4 dark:active:bg-crimsondarka-4;
+}
+@utility bg-crimsona-action {
+  @apply bg-crimsona-4 dark:bg-crimsondarka-4 hover:bg-crimsona-5 dark:hover:bg-crimsondarka-5 active:bg-crimsona-6 dark:active:bg-crimsondarka-6;
+}
+@utility bg-crimsona-solid {
+  @apply bg-crimsona-9 dark:bg-crimsondarka-9 hover:bg-crimsona-10 dark:hover:bg-crimsondarka-10;
+}
+@utility border-crimsona-dim {
+  @apply border-crimsona-6 dark:border-crimsondarka-6;
+}
+@utility border-crimsona-normal {
+  @apply border-crimsona-7 dark:border-crimsondarka-7 hover:border-crimsona-8 dark:hover:border-crimsondarka-8;
+}
+@utility divide-crimsona-dim {
+  @apply divide-crimsona-6 dark:divide-crimsondarka-6;
+}
+@utility divide-crimsona-normal {
+  @apply divide-crimsona-7 dark:divide-crimsondarka-7 hover:divide-crimsona-8 dark:hover:divide-crimsondarka-8;
+}
+@utility text-crimsona-dim {
+  @apply text-crimsona-11 dark:text-crimsondarka-11;
+}
+@utility text-crimsona-normal {
+  @apply text-crimsona-12 dark:text-crimsondarka-12;
+}

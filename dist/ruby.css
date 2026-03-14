@@ -1,0 +1,37 @@
+@import "./ruby-colors-only.css";
+@utility bg-ruby-app {
+  @apply bg-ruby-1 dark:bg-rubydark-1;
+}
+@utility bg-ruby-subtle {
+  @apply bg-ruby-2 dark:bg-rubydark-2;
+}
+@utility bg-ruby-ui {
+  @apply bg-ruby-3 dark:bg-rubydark-3 hover:bg-ruby-4 dark:hover:bg-rubydark-4 active:bg-ruby-5 dark:active:bg-rubydark-5;
+}
+@utility bg-ruby-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-ruby-3 dark:hover:bg-rubydark-3 active:bg-ruby-4 dark:active:bg-rubydark-4;
+}
+@utility bg-ruby-action {
+  @apply bg-ruby-4 dark:bg-rubydark-4 hover:bg-ruby-5 dark:hover:bg-rubydark-5 active:bg-ruby-6 dark:active:bg-rubydark-6;
+}
+@utility bg-ruby-solid {
+  @apply bg-ruby-9 dark:bg-rubydark-9 hover:bg-ruby-10 dark:hover:bg-rubydark-10;
+}
+@utility border-ruby-dim {
+  @apply border-ruby-6 dark:border-rubydark-6;
+}
+@utility border-ruby-normal {
+  @apply border-ruby-7 dark:border-rubydark-7 hover:border-ruby-8 dark:hover:border-rubydark-8;
+}
+@utility divide-ruby-dim {
+  @apply divide-ruby-6 dark:divide-rubydark-6;
+}
+@utility divide-ruby-normal {
+  @apply divide-ruby-7 dark:divide-rubydark-7 hover:divide-ruby-8 dark:hover:divide-rubydark-8;
+}
+@utility text-ruby-dim {
+  @apply text-ruby-11 dark:text-rubydark-11;
+}
+@utility text-ruby-normal {
+  @apply text-ruby-12 dark:text-rubydark-12;
+}

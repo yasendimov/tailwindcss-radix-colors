@@ -1,0 +1,37 @@
+@import "./grass-colors-only.css";
+@utility bg-grass-app {
+  @apply bg-grass-1 dark:bg-grassdark-1;
+}
+@utility bg-grass-subtle {
+  @apply bg-grass-2 dark:bg-grassdark-2;
+}
+@utility bg-grass-ui {
+  @apply bg-grass-3 dark:bg-grassdark-3 hover:bg-grass-4 dark:hover:bg-grassdark-4 active:bg-grass-5 dark:active:bg-grassdark-5;
+}
+@utility bg-grass-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-grass-3 dark:hover:bg-grassdark-3 active:bg-grass-4 dark:active:bg-grassdark-4;
+}
+@utility bg-grass-action {
+  @apply bg-grass-4 dark:bg-grassdark-4 hover:bg-grass-5 dark:hover:bg-grassdark-5 active:bg-grass-6 dark:active:bg-grassdark-6;
+}
+@utility bg-grass-solid {
+  @apply bg-grass-9 dark:bg-grassdark-9 hover:bg-grass-10 dark:hover:bg-grassdark-10;
+}
+@utility border-grass-dim {
+  @apply border-grass-6 dark:border-grassdark-6;
+}
+@utility border-grass-normal {
+  @apply border-grass-7 dark:border-grassdark-7 hover:border-grass-8 dark:hover:border-grassdark-8;
+}
+@utility divide-grass-dim {
+  @apply divide-grass-6 dark:divide-grassdark-6;
+}
+@utility divide-grass-normal {
+  @apply divide-grass-7 dark:divide-grassdark-7 hover:divide-grass-8 dark:hover:divide-grassdark-8;
+}
+@utility text-grass-dim {
+  @apply text-grass-11 dark:text-grassdark-11;
+}
+@utility text-grass-normal {
+  @apply text-grass-12 dark:text-grassdark-12;
+}

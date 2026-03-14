@@ -1,0 +1,37 @@
+@import "./skya-colors-only.css";
+@utility bg-skya-app {
+  @apply bg-skya-1 dark:bg-skydarka-1;
+}
+@utility bg-skya-subtle {
+  @apply bg-skya-2 dark:bg-skydarka-2;
+}
+@utility bg-skya-ui {
+  @apply bg-skya-3 dark:bg-skydarka-3 hover:bg-skya-4 dark:hover:bg-skydarka-4 active:bg-skya-5 dark:active:bg-skydarka-5;
+}
+@utility bg-skya-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-skya-3 dark:hover:bg-skydarka-3 active:bg-skya-4 dark:active:bg-skydarka-4;
+}
+@utility bg-skya-action {
+  @apply bg-skya-4 dark:bg-skydarka-4 hover:bg-skya-5 dark:hover:bg-skydarka-5 active:bg-skya-6 dark:active:bg-skydarka-6;
+}
+@utility bg-skya-solid {
+  @apply bg-skya-9 dark:bg-skydarka-9 hover:bg-skya-10 dark:hover:bg-skydarka-10;
+}
+@utility border-skya-dim {
+  @apply border-skya-6 dark:border-skydarka-6;
+}
+@utility border-skya-normal {
+  @apply border-skya-7 dark:border-skydarka-7 hover:border-skya-8 dark:hover:border-skydarka-8;
+}
+@utility divide-skya-dim {
+  @apply divide-skya-6 dark:divide-skydarka-6;
+}
+@utility divide-skya-normal {
+  @apply divide-skya-7 dark:divide-skydarka-7 hover:divide-skya-8 dark:hover:divide-skydarka-8;
+}
+@utility text-skya-dim {
+  @apply text-skya-11 dark:text-skydarka-11;
+}
+@utility text-skya-normal {
+  @apply text-skya-12 dark:text-skydarka-12;
+}

@@ -1,0 +1,37 @@
+@import "./pinkp3-colors-only.css";
+@utility bg-pinkp3-app {
+  @apply bg-pinkp3-1 dark:bg-pinkdarkp3-1;
+}
+@utility bg-pinkp3-subtle {
+  @apply bg-pinkp3-2 dark:bg-pinkdarkp3-2;
+}
+@utility bg-pinkp3-ui {
+  @apply bg-pinkp3-3 dark:bg-pinkdarkp3-3 hover:bg-pinkp3-4 dark:hover:bg-pinkdarkp3-4 active:bg-pinkp3-5 dark:active:bg-pinkdarkp3-5;
+}
+@utility bg-pinkp3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-pinkp3-3 dark:hover:bg-pinkdarkp3-3 active:bg-pinkp3-4 dark:active:bg-pinkdarkp3-4;
+}
+@utility bg-pinkp3-action {
+  @apply bg-pinkp3-4 dark:bg-pinkdarkp3-4 hover:bg-pinkp3-5 dark:hover:bg-pinkdarkp3-5 active:bg-pinkp3-6 dark:active:bg-pinkdarkp3-6;
+}
+@utility bg-pinkp3-solid {
+  @apply bg-pinkp3-9 dark:bg-pinkdarkp3-9 hover:bg-pinkp3-10 dark:hover:bg-pinkdarkp3-10;
+}
+@utility border-pinkp3-dim {
+  @apply border-pinkp3-6 dark:border-pinkdarkp3-6;
+}
+@utility border-pinkp3-normal {
+  @apply border-pinkp3-7 dark:border-pinkdarkp3-7 hover:border-pinkp3-8 dark:hover:border-pinkdarkp3-8;
+}
+@utility divide-pinkp3-dim {
+  @apply divide-pinkp3-6 dark:divide-pinkdarkp3-6;
+}
+@utility divide-pinkp3-normal {
+  @apply divide-pinkp3-7 dark:divide-pinkdarkp3-7 hover:divide-pinkp3-8 dark:hover:divide-pinkdarkp3-8;
+}
+@utility text-pinkp3-dim {
+  @apply text-pinkp3-11 dark:text-pinkdarkp3-11;
+}
+@utility text-pinkp3-normal {
+  @apply text-pinkp3-12 dark:text-pinkdarkp3-12;
+}

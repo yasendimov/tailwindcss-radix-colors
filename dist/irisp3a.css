@@ -1,0 +1,37 @@
+@import "./irisp3a-colors-only.css";
+@utility bg-irisp3a-app {
+  @apply bg-irisp3a-1 dark:bg-irisdarkp3a-1;
+}
+@utility bg-irisp3a-subtle {
+  @apply bg-irisp3a-2 dark:bg-irisdarkp3a-2;
+}
+@utility bg-irisp3a-ui {
+  @apply bg-irisp3a-3 dark:bg-irisdarkp3a-3 hover:bg-irisp3a-4 dark:hover:bg-irisdarkp3a-4 active:bg-irisp3a-5 dark:active:bg-irisdarkp3a-5;
+}
+@utility bg-irisp3a-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-irisp3a-3 dark:hover:bg-irisdarkp3a-3 active:bg-irisp3a-4 dark:active:bg-irisdarkp3a-4;
+}
+@utility bg-irisp3a-action {
+  @apply bg-irisp3a-4 dark:bg-irisdarkp3a-4 hover:bg-irisp3a-5 dark:hover:bg-irisdarkp3a-5 active:bg-irisp3a-6 dark:active:bg-irisdarkp3a-6;
+}
+@utility bg-irisp3a-solid {
+  @apply bg-irisp3a-9 dark:bg-irisdarkp3a-9 hover:bg-irisp3a-10 dark:hover:bg-irisdarkp3a-10;
+}
+@utility border-irisp3a-dim {
+  @apply border-irisp3a-6 dark:border-irisdarkp3a-6;
+}
+@utility border-irisp3a-normal {
+  @apply border-irisp3a-7 dark:border-irisdarkp3a-7 hover:border-irisp3a-8 dark:hover:border-irisdarkp3a-8;
+}
+@utility divide-irisp3a-dim {
+  @apply divide-irisp3a-6 dark:divide-irisdarkp3a-6;
+}
+@utility divide-irisp3a-normal {
+  @apply divide-irisp3a-7 dark:divide-irisdarkp3a-7 hover:divide-irisp3a-8 dark:hover:divide-irisdarkp3a-8;
+}
+@utility text-irisp3a-dim {
+  @apply text-irisp3a-11 dark:text-irisdarkp3a-11;
+}
+@utility text-irisp3a-normal {
+  @apply text-irisp3a-12 dark:text-irisdarkp3a-12;
+}

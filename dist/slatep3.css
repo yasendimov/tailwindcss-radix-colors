@@ -1,0 +1,37 @@
+@import "./slatep3-colors-only.css";
+@utility bg-slatep3-app {
+  @apply bg-slatep3-1 dark:bg-slatedarkp3-1;
+}
+@utility bg-slatep3-subtle {
+  @apply bg-slatep3-2 dark:bg-slatedarkp3-2;
+}
+@utility bg-slatep3-ui {
+  @apply bg-slatep3-3 dark:bg-slatedarkp3-3 hover:bg-slatep3-4 dark:hover:bg-slatedarkp3-4 active:bg-slatep3-5 dark:active:bg-slatedarkp3-5;
+}
+@utility bg-slatep3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-slatep3-3 dark:hover:bg-slatedarkp3-3 active:bg-slatep3-4 dark:active:bg-slatedarkp3-4;
+}
+@utility bg-slatep3-action {
+  @apply bg-slatep3-4 dark:bg-slatedarkp3-4 hover:bg-slatep3-5 dark:hover:bg-slatedarkp3-5 active:bg-slatep3-6 dark:active:bg-slatedarkp3-6;
+}
+@utility bg-slatep3-solid {
+  @apply bg-slatep3-9 dark:bg-slatedarkp3-9 hover:bg-slatep3-10 dark:hover:bg-slatedarkp3-10;
+}
+@utility border-slatep3-dim {
+  @apply border-slatep3-6 dark:border-slatedarkp3-6;
+}
+@utility border-slatep3-normal {
+  @apply border-slatep3-7 dark:border-slatedarkp3-7 hover:border-slatep3-8 dark:hover:border-slatedarkp3-8;
+}
+@utility divide-slatep3-dim {
+  @apply divide-slatep3-6 dark:divide-slatedarkp3-6;
+}
+@utility divide-slatep3-normal {
+  @apply divide-slatep3-7 dark:divide-slatedarkp3-7 hover:divide-slatep3-8 dark:hover:divide-slatedarkp3-8;
+}
+@utility text-slatep3-dim {
+  @apply text-slatep3-11 dark:text-slatedarkp3-11;
+}
+@utility text-slatep3-normal {
+  @apply text-slatep3-12 dark:text-slatedarkp3-12;
+}

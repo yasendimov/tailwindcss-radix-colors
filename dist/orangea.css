@@ -1,0 +1,37 @@
+@import "./orangea-colors-only.css";
+@utility bg-orangea-app {
+  @apply bg-orangea-1 dark:bg-orangedarka-1;
+}
+@utility bg-orangea-subtle {
+  @apply bg-orangea-2 dark:bg-orangedarka-2;
+}
+@utility bg-orangea-ui {
+  @apply bg-orangea-3 dark:bg-orangedarka-3 hover:bg-orangea-4 dark:hover:bg-orangedarka-4 active:bg-orangea-5 dark:active:bg-orangedarka-5;
+}
+@utility bg-orangea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-orangea-3 dark:hover:bg-orangedarka-3 active:bg-orangea-4 dark:active:bg-orangedarka-4;
+}
+@utility bg-orangea-action {
+  @apply bg-orangea-4 dark:bg-orangedarka-4 hover:bg-orangea-5 dark:hover:bg-orangedarka-5 active:bg-orangea-6 dark:active:bg-orangedarka-6;
+}
+@utility bg-orangea-solid {
+  @apply bg-orangea-9 dark:bg-orangedarka-9 hover:bg-orangea-10 dark:hover:bg-orangedarka-10;
+}
+@utility border-orangea-dim {
+  @apply border-orangea-6 dark:border-orangedarka-6;
+}
+@utility border-orangea-normal {
+  @apply border-orangea-7 dark:border-orangedarka-7 hover:border-orangea-8 dark:hover:border-orangedarka-8;
+}
+@utility divide-orangea-dim {
+  @apply divide-orangea-6 dark:divide-orangedarka-6;
+}
+@utility divide-orangea-normal {
+  @apply divide-orangea-7 dark:divide-orangedarka-7 hover:divide-orangea-8 dark:hover:divide-orangedarka-8;
+}
+@utility text-orangea-dim {
+  @apply text-orangea-11 dark:text-orangedarka-11;
+}
+@utility text-orangea-normal {
+  @apply text-orangea-12 dark:text-orangedarka-12;
+}

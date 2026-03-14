@@ -1,0 +1,37 @@
+@import "./slatea-colors-only.css";
+@utility bg-slatea-app {
+  @apply bg-slatea-1 dark:bg-slatedarka-1;
+}
+@utility bg-slatea-subtle {
+  @apply bg-slatea-2 dark:bg-slatedarka-2;
+}
+@utility bg-slatea-ui {
+  @apply bg-slatea-3 dark:bg-slatedarka-3 hover:bg-slatea-4 dark:hover:bg-slatedarka-4 active:bg-slatea-5 dark:active:bg-slatedarka-5;
+}
+@utility bg-slatea-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-slatea-3 dark:hover:bg-slatedarka-3 active:bg-slatea-4 dark:active:bg-slatedarka-4;
+}
+@utility bg-slatea-action {
+  @apply bg-slatea-4 dark:bg-slatedarka-4 hover:bg-slatea-5 dark:hover:bg-slatedarka-5 active:bg-slatea-6 dark:active:bg-slatedarka-6;
+}
+@utility bg-slatea-solid {
+  @apply bg-slatea-9 dark:bg-slatedarka-9 hover:bg-slatea-10 dark:hover:bg-slatedarka-10;
+}
+@utility border-slatea-dim {
+  @apply border-slatea-6 dark:border-slatedarka-6;
+}
+@utility border-slatea-normal {
+  @apply border-slatea-7 dark:border-slatedarka-7 hover:border-slatea-8 dark:hover:border-slatedarka-8;
+}
+@utility divide-slatea-dim {
+  @apply divide-slatea-6 dark:divide-slatedarka-6;
+}
+@utility divide-slatea-normal {
+  @apply divide-slatea-7 dark:divide-slatedarka-7 hover:divide-slatea-8 dark:hover:divide-slatedarka-8;
+}
+@utility text-slatea-dim {
+  @apply text-slatea-11 dark:text-slatedarka-11;
+}
+@utility text-slatea-normal {
+  @apply text-slatea-12 dark:text-slatedarka-12;
+}

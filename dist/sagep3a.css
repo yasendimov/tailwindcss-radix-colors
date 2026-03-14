@@ -1,0 +1,37 @@
+@import "./sagep3a-colors-only.css";
+@utility bg-sagep3a-app {
+  @apply bg-sagep3a-1 dark:bg-sagedarkp3a-1;
+}
+@utility bg-sagep3a-subtle {
+  @apply bg-sagep3a-2 dark:bg-sagedarkp3a-2;
+}
+@utility bg-sagep3a-ui {
+  @apply bg-sagep3a-3 dark:bg-sagedarkp3a-3 hover:bg-sagep3a-4 dark:hover:bg-sagedarkp3a-4 active:bg-sagep3a-5 dark:active:bg-sagedarkp3a-5;
+}
+@utility bg-sagep3a-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-sagep3a-3 dark:hover:bg-sagedarkp3a-3 active:bg-sagep3a-4 dark:active:bg-sagedarkp3a-4;
+}
+@utility bg-sagep3a-action {
+  @apply bg-sagep3a-4 dark:bg-sagedarkp3a-4 hover:bg-sagep3a-5 dark:hover:bg-sagedarkp3a-5 active:bg-sagep3a-6 dark:active:bg-sagedarkp3a-6;
+}
+@utility bg-sagep3a-solid {
+  @apply bg-sagep3a-9 dark:bg-sagedarkp3a-9 hover:bg-sagep3a-10 dark:hover:bg-sagedarkp3a-10;
+}
+@utility border-sagep3a-dim {
+  @apply border-sagep3a-6 dark:border-sagedarkp3a-6;
+}
+@utility border-sagep3a-normal {
+  @apply border-sagep3a-7 dark:border-sagedarkp3a-7 hover:border-sagep3a-8 dark:hover:border-sagedarkp3a-8;
+}
+@utility divide-sagep3a-dim {
+  @apply divide-sagep3a-6 dark:divide-sagedarkp3a-6;
+}
+@utility divide-sagep3a-normal {
+  @apply divide-sagep3a-7 dark:divide-sagedarkp3a-7 hover:divide-sagep3a-8 dark:hover:divide-sagedarkp3a-8;
+}
+@utility text-sagep3a-dim {
+  @apply text-sagep3a-11 dark:text-sagedarkp3a-11;
+}
+@utility text-sagep3a-normal {
+  @apply text-sagep3a-12 dark:text-sagedarkp3a-12;
+}

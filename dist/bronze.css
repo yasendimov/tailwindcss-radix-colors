@@ -1,0 +1,37 @@
+@import "./bronze-colors-only.css";
+@utility bg-bronze-app {
+  @apply bg-bronze-1 dark:bg-bronzedark-1;
+}
+@utility bg-bronze-subtle {
+  @apply bg-bronze-2 dark:bg-bronzedark-2;
+}
+@utility bg-bronze-ui {
+  @apply bg-bronze-3 dark:bg-bronzedark-3 hover:bg-bronze-4 dark:hover:bg-bronzedark-4 active:bg-bronze-5 dark:active:bg-bronzedark-5;
+}
+@utility bg-bronze-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-bronze-3 dark:hover:bg-bronzedark-3 active:bg-bronze-4 dark:active:bg-bronzedark-4;
+}
+@utility bg-bronze-action {
+  @apply bg-bronze-4 dark:bg-bronzedark-4 hover:bg-bronze-5 dark:hover:bg-bronzedark-5 active:bg-bronze-6 dark:active:bg-bronzedark-6;
+}
+@utility bg-bronze-solid {
+  @apply bg-bronze-9 dark:bg-bronzedark-9 hover:bg-bronze-10 dark:hover:bg-bronzedark-10;
+}
+@utility border-bronze-dim {
+  @apply border-bronze-6 dark:border-bronzedark-6;
+}
+@utility border-bronze-normal {
+  @apply border-bronze-7 dark:border-bronzedark-7 hover:border-bronze-8 dark:hover:border-bronzedark-8;
+}
+@utility divide-bronze-dim {
+  @apply divide-bronze-6 dark:divide-bronzedark-6;
+}
+@utility divide-bronze-normal {
+  @apply divide-bronze-7 dark:divide-bronzedark-7 hover:divide-bronze-8 dark:hover:divide-bronzedark-8;
+}
+@utility text-bronze-dim {
+  @apply text-bronze-11 dark:text-bronzedark-11;
+}
+@utility text-bronze-normal {
+  @apply text-bronze-12 dark:text-bronzedark-12;
+}

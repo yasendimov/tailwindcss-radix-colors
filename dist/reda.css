@@ -1,0 +1,37 @@
+@import "./reda-colors-only.css";
+@utility bg-reda-app {
+  @apply bg-reda-1 dark:bg-reddarka-1;
+}
+@utility bg-reda-subtle {
+  @apply bg-reda-2 dark:bg-reddarka-2;
+}
+@utility bg-reda-ui {
+  @apply bg-reda-3 dark:bg-reddarka-3 hover:bg-reda-4 dark:hover:bg-reddarka-4 active:bg-reda-5 dark:active:bg-reddarka-5;
+}
+@utility bg-reda-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-reda-3 dark:hover:bg-reddarka-3 active:bg-reda-4 dark:active:bg-reddarka-4;
+}
+@utility bg-reda-action {
+  @apply bg-reda-4 dark:bg-reddarka-4 hover:bg-reda-5 dark:hover:bg-reddarka-5 active:bg-reda-6 dark:active:bg-reddarka-6;
+}
+@utility bg-reda-solid {
+  @apply bg-reda-9 dark:bg-reddarka-9 hover:bg-reda-10 dark:hover:bg-reddarka-10;
+}
+@utility border-reda-dim {
+  @apply border-reda-6 dark:border-reddarka-6;
+}
+@utility border-reda-normal {
+  @apply border-reda-7 dark:border-reddarka-7 hover:border-reda-8 dark:hover:border-reddarka-8;
+}
+@utility divide-reda-dim {
+  @apply divide-reda-6 dark:divide-reddarka-6;
+}
+@utility divide-reda-normal {
+  @apply divide-reda-7 dark:divide-reddarka-7 hover:divide-reda-8 dark:hover:divide-reddarka-8;
+}
+@utility text-reda-dim {
+  @apply text-reda-11 dark:text-reddarka-11;
+}
+@utility text-reda-normal {
+  @apply text-reda-12 dark:text-reddarka-12;
+}

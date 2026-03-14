@@ -1,0 +1,37 @@
+@import "./crimson-colors-only.css";
+@utility bg-crimson-app {
+  @apply bg-crimson-1 dark:bg-crimsondark-1;
+}
+@utility bg-crimson-subtle {
+  @apply bg-crimson-2 dark:bg-crimsondark-2;
+}
+@utility bg-crimson-ui {
+  @apply bg-crimson-3 dark:bg-crimsondark-3 hover:bg-crimson-4 dark:hover:bg-crimsondark-4 active:bg-crimson-5 dark:active:bg-crimsondark-5;
+}
+@utility bg-crimson-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-crimson-3 dark:hover:bg-crimsondark-3 active:bg-crimson-4 dark:active:bg-crimsondark-4;
+}
+@utility bg-crimson-action {
+  @apply bg-crimson-4 dark:bg-crimsondark-4 hover:bg-crimson-5 dark:hover:bg-crimsondark-5 active:bg-crimson-6 dark:active:bg-crimsondark-6;
+}
+@utility bg-crimson-solid {
+  @apply bg-crimson-9 dark:bg-crimsondark-9 hover:bg-crimson-10 dark:hover:bg-crimsondark-10;
+}
+@utility border-crimson-dim {
+  @apply border-crimson-6 dark:border-crimsondark-6;
+}
+@utility border-crimson-normal {
+  @apply border-crimson-7 dark:border-crimsondark-7 hover:border-crimson-8 dark:hover:border-crimsondark-8;
+}
+@utility divide-crimson-dim {
+  @apply divide-crimson-6 dark:divide-crimsondark-6;
+}
+@utility divide-crimson-normal {
+  @apply divide-crimson-7 dark:divide-crimsondark-7 hover:divide-crimson-8 dark:hover:divide-crimsondark-8;
+}
+@utility text-crimson-dim {
+  @apply text-crimson-11 dark:text-crimsondark-11;
+}
+@utility text-crimson-normal {
+  @apply text-crimson-12 dark:text-crimsondark-12;
+}

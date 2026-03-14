@@ -1,0 +1,37 @@
+@import "./olive-colors-only.css";
+@utility bg-olive-app {
+  @apply bg-olive-1 dark:bg-olivedark-1;
+}
+@utility bg-olive-subtle {
+  @apply bg-olive-2 dark:bg-olivedark-2;
+}
+@utility bg-olive-ui {
+  @apply bg-olive-3 dark:bg-olivedark-3 hover:bg-olive-4 dark:hover:bg-olivedark-4 active:bg-olive-5 dark:active:bg-olivedark-5;
+}
+@utility bg-olive-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-olive-3 dark:hover:bg-olivedark-3 active:bg-olive-4 dark:active:bg-olivedark-4;
+}
+@utility bg-olive-action {
+  @apply bg-olive-4 dark:bg-olivedark-4 hover:bg-olive-5 dark:hover:bg-olivedark-5 active:bg-olive-6 dark:active:bg-olivedark-6;
+}
+@utility bg-olive-solid {
+  @apply bg-olive-9 dark:bg-olivedark-9 hover:bg-olive-10 dark:hover:bg-olivedark-10;
+}
+@utility border-olive-dim {
+  @apply border-olive-6 dark:border-olivedark-6;
+}
+@utility border-olive-normal {
+  @apply border-olive-7 dark:border-olivedark-7 hover:border-olive-8 dark:hover:border-olivedark-8;
+}
+@utility divide-olive-dim {
+  @apply divide-olive-6 dark:divide-olivedark-6;
+}
+@utility divide-olive-normal {
+  @apply divide-olive-7 dark:divide-olivedark-7 hover:divide-olive-8 dark:hover:divide-olivedark-8;
+}
+@utility text-olive-dim {
+  @apply text-olive-11 dark:text-olivedark-11;
+}
+@utility text-olive-normal {
+  @apply text-olive-12 dark:text-olivedark-12;
+}

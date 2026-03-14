@@ -1,0 +1,26 @@
+@theme {
+  --color-bronzep3a-1: color(display-p3 0.349 0.024 0.024 / 0.012);
+  --color-bronzep3a-2: color(display-p3 0.71 0.22 0.024 / 0.04);
+  --color-bronzep3a-3: color(display-p3 0.482 0.2 0.008 / 0.083);
+  --color-bronzep3a-4: color(display-p3 0.424 0.133 0.004 / 0.122);
+  --color-bronzep3a-5: color(display-p3 0.4 0.145 0.004 / 0.169);
+  --color-bronzep3a-6: color(display-p3 0.388 0.125 0.004 / 0.224);
+  --color-bronzep3a-7: color(display-p3 0.365 0.11 0.004 / 0.295);
+  --color-bronzep3a-8: color(display-p3 0.341 0.102 0.004 / 0.393);
+  --color-bronzep3a-9: color(display-p3 0.29 0.094 0 / 0.546);
+  --color-bronzep3a-10: color(display-p3 0.255 0.082 0 / 0.585);
+  --color-bronzep3a-11: color(display-p3 0.471 0.373 0.336);
+  --color-bronzep3a-12: color(display-p3 0.251 0.191 0.172);
+  --color-bronzedarkp3a-1: color(display-p3 0.941 0.067 0 / 0.009);
+  --color-bronzedarkp3a-2: color(display-p3 0.98 0.8 0.706 / 0.043);
+  --color-bronzedarkp3a-3: color(display-p3 0.988 0.851 0.761 / 0.085);
+  --color-bronzedarkp3a-4: color(display-p3 0.996 0.839 0.78 / 0.127);
+  --color-bronzedarkp3a-5: color(display-p3 0.996 0.863 0.773 / 0.173);
+  --color-bronzedarkp3a-6: color(display-p3 1 0.863 0.796 / 0.227);
+  --color-bronzedarkp3a-7: color(display-p3 1 0.867 0.8 / 0.295);
+  --color-bronzedarkp3a-8: color(display-p3 1 0.859 0.788 / 0.387);
+  --color-bronzedarkp3a-9: color(display-p3 1 0.82 0.733 / 0.585);
+  --color-bronzedarkp3a-10: color(display-p3 1 0.839 0.761 / 0.635);
+  --color-bronzedarkp3a-11: color(display-p3 0.81 0.707 0.655);
+  --color-bronzedarkp3a-12: color(display-p3 0.921 0.88 0.854);
+}

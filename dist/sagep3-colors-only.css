@@ -1,0 +1,26 @@
+@theme {
+  --color-sagep3-1: color(display-p3 0.986 0.992 0.988);
+  --color-sagep3-2: color(display-p3 0.97 0.977 0.974);
+  --color-sagep3-3: color(display-p3 0.935 0.944 0.94);
+  --color-sagep3-4: color(display-p3 0.904 0.913 0.909);
+  --color-sagep3-5: color(display-p3 0.875 0.885 0.88);
+  --color-sagep3-6: color(display-p3 0.844 0.854 0.849);
+  --color-sagep3-7: color(display-p3 0.8 0.811 0.806);
+  --color-sagep3-8: color(display-p3 0.725 0.738 0.732);
+  --color-sagep3-9: color(display-p3 0.531 0.556 0.546);
+  --color-sagep3-10: color(display-p3 0.492 0.515 0.506);
+  --color-sagep3-11: color(display-p3 0.377 0.395 0.389);
+  --color-sagep3-12: color(display-p3 0.107 0.129 0.118);
+  --color-sagedarkp3-1: color(display-p3 0.064 0.07 0.067);
+  --color-sagedarkp3-2: color(display-p3 0.092 0.098 0.094);
+  --color-sagedarkp3-3: color(display-p3 0.128 0.135 0.131);
+  --color-sagedarkp3-4: color(display-p3 0.155 0.164 0.159);
+  --color-sagedarkp3-5: color(display-p3 0.183 0.193 0.188);
+  --color-sagedarkp3-6: color(display-p3 0.218 0.23 0.224);
+  --color-sagedarkp3-7: color(display-p3 0.269 0.285 0.277);
+  --color-sagedarkp3-8: color(display-p3 0.362 0.382 0.373);
+  --color-sagedarkp3-9: color(display-p3 0.398 0.438 0.421);
+  --color-sagedarkp3-10: color(display-p3 0.453 0.49 0.474);
+  --color-sagedarkp3-11: color(display-p3 0.685 0.709 0.697);
+  --color-sagedarkp3-12: color(display-p3 0.927 0.933 0.93);
+}

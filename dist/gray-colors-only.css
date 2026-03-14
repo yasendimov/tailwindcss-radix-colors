@@ -1,0 +1,26 @@
+@theme {
+  --color-gray-1: #fcfcfc;
+  --color-gray-2: #f9f9f9;
+  --color-gray-3: #f0f0f0;
+  --color-gray-4: #e8e8e8;
+  --color-gray-5: #e0e0e0;
+  --color-gray-6: #d9d9d9;
+  --color-gray-7: #cecece;
+  --color-gray-8: #bbbbbb;
+  --color-gray-9: #8d8d8d;
+  --color-gray-10: #838383;
+  --color-gray-11: #646464;
+  --color-gray-12: #202020;
+  --color-graydark-1: #111111;
+  --color-graydark-2: #191919;
+  --color-graydark-3: #222222;
+  --color-graydark-4: #2a2a2a;
+  --color-graydark-5: #313131;
+  --color-graydark-6: #3a3a3a;
+  --color-graydark-7: #484848;
+  --color-graydark-8: #606060;
+  --color-graydark-9: #6e6e6e;
+  --color-graydark-10: #7b7b7b;
+  --color-graydark-11: #b4b4b4;
+  --color-graydark-12: #eeeeee;
+}

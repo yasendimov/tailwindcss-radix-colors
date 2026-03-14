@@ -1,0 +1,37 @@
+@import "./cyanp3-colors-only.css";
+@utility bg-cyanp3-app {
+  @apply bg-cyanp3-1 dark:bg-cyandarkp3-1;
+}
+@utility bg-cyanp3-subtle {
+  @apply bg-cyanp3-2 dark:bg-cyandarkp3-2;
+}
+@utility bg-cyanp3-ui {
+  @apply bg-cyanp3-3 dark:bg-cyandarkp3-3 hover:bg-cyanp3-4 dark:hover:bg-cyandarkp3-4 active:bg-cyanp3-5 dark:active:bg-cyandarkp3-5;
+}
+@utility bg-cyanp3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-cyanp3-3 dark:hover:bg-cyandarkp3-3 active:bg-cyanp3-4 dark:active:bg-cyandarkp3-4;
+}
+@utility bg-cyanp3-action {
+  @apply bg-cyanp3-4 dark:bg-cyandarkp3-4 hover:bg-cyanp3-5 dark:hover:bg-cyandarkp3-5 active:bg-cyanp3-6 dark:active:bg-cyandarkp3-6;
+}
+@utility bg-cyanp3-solid {
+  @apply bg-cyanp3-9 dark:bg-cyandarkp3-9 hover:bg-cyanp3-10 dark:hover:bg-cyandarkp3-10;
+}
+@utility border-cyanp3-dim {
+  @apply border-cyanp3-6 dark:border-cyandarkp3-6;
+}
+@utility border-cyanp3-normal {
+  @apply border-cyanp3-7 dark:border-cyandarkp3-7 hover:border-cyanp3-8 dark:hover:border-cyandarkp3-8;
+}
+@utility divide-cyanp3-dim {
+  @apply divide-cyanp3-6 dark:divide-cyandarkp3-6;
+}
+@utility divide-cyanp3-normal {
+  @apply divide-cyanp3-7 dark:divide-cyandarkp3-7 hover:divide-cyanp3-8 dark:hover:divide-cyandarkp3-8;
+}
+@utility text-cyanp3-dim {
+  @apply text-cyanp3-11 dark:text-cyandarkp3-11;
+}
+@utility text-cyanp3-normal {
+  @apply text-cyanp3-12 dark:text-cyandarkp3-12;
+}

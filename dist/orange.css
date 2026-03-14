@@ -1,0 +1,37 @@
+@import "./orange-colors-only.css";
+@utility bg-orange-app {
+  @apply bg-orange-1 dark:bg-orangedark-1;
+}
+@utility bg-orange-subtle {
+  @apply bg-orange-2 dark:bg-orangedark-2;
+}
+@utility bg-orange-ui {
+  @apply bg-orange-3 dark:bg-orangedark-3 hover:bg-orange-4 dark:hover:bg-orangedark-4 active:bg-orange-5 dark:active:bg-orangedark-5;
+}
+@utility bg-orange-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-orange-3 dark:hover:bg-orangedark-3 active:bg-orange-4 dark:active:bg-orangedark-4;
+}
+@utility bg-orange-action {
+  @apply bg-orange-4 dark:bg-orangedark-4 hover:bg-orange-5 dark:hover:bg-orangedark-5 active:bg-orange-6 dark:active:bg-orangedark-6;
+}
+@utility bg-orange-solid {
+  @apply bg-orange-9 dark:bg-orangedark-9 hover:bg-orange-10 dark:hover:bg-orangedark-10;
+}
+@utility border-orange-dim {
+  @apply border-orange-6 dark:border-orangedark-6;
+}
+@utility border-orange-normal {
+  @apply border-orange-7 dark:border-orangedark-7 hover:border-orange-8 dark:hover:border-orangedark-8;
+}
+@utility divide-orange-dim {
+  @apply divide-orange-6 dark:divide-orangedark-6;
+}
+@utility divide-orange-normal {
+  @apply divide-orange-7 dark:divide-orangedark-7 hover:divide-orange-8 dark:hover:divide-orangedark-8;
+}
+@utility text-orange-dim {
+  @apply text-orange-11 dark:text-orangedark-11;
+}
+@utility text-orange-normal {
+  @apply text-orange-12 dark:text-orangedark-12;
+}

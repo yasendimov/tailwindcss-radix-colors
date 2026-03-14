@@ -1,0 +1,37 @@
+@import "./redp3-colors-only.css";
+@utility bg-redp3-app {
+  @apply bg-redp3-1 dark:bg-reddarkp3-1;
+}
+@utility bg-redp3-subtle {
+  @apply bg-redp3-2 dark:bg-reddarkp3-2;
+}
+@utility bg-redp3-ui {
+  @apply bg-redp3-3 dark:bg-reddarkp3-3 hover:bg-redp3-4 dark:hover:bg-reddarkp3-4 active:bg-redp3-5 dark:active:bg-reddarkp3-5;
+}
+@utility bg-redp3-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-redp3-3 dark:hover:bg-reddarkp3-3 active:bg-redp3-4 dark:active:bg-reddarkp3-4;
+}
+@utility bg-redp3-action {
+  @apply bg-redp3-4 dark:bg-reddarkp3-4 hover:bg-redp3-5 dark:hover:bg-reddarkp3-5 active:bg-redp3-6 dark:active:bg-reddarkp3-6;
+}
+@utility bg-redp3-solid {
+  @apply bg-redp3-9 dark:bg-reddarkp3-9 hover:bg-redp3-10 dark:hover:bg-reddarkp3-10;
+}
+@utility border-redp3-dim {
+  @apply border-redp3-6 dark:border-reddarkp3-6;
+}
+@utility border-redp3-normal {
+  @apply border-redp3-7 dark:border-reddarkp3-7 hover:border-redp3-8 dark:hover:border-reddarkp3-8;
+}
+@utility divide-redp3-dim {
+  @apply divide-redp3-6 dark:divide-reddarkp3-6;
+}
+@utility divide-redp3-normal {
+  @apply divide-redp3-7 dark:divide-reddarkp3-7 hover:divide-redp3-8 dark:hover:divide-reddarkp3-8;
+}
+@utility text-redp3-dim {
+  @apply text-redp3-11 dark:text-reddarkp3-11;
+}
+@utility text-redp3-normal {
+  @apply text-redp3-12 dark:text-reddarkp3-12;
+}

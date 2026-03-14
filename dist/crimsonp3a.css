@@ -1,0 +1,37 @@
+@import "./crimsonp3a-colors-only.css";
+@utility bg-crimsonp3a-app {
+  @apply bg-crimsonp3a-1 dark:bg-crimsondarkp3a-1;
+}
+@utility bg-crimsonp3a-subtle {
+  @apply bg-crimsonp3a-2 dark:bg-crimsondarkp3a-2;
+}
+@utility bg-crimsonp3a-ui {
+  @apply bg-crimsonp3a-3 dark:bg-crimsondarkp3a-3 hover:bg-crimsonp3a-4 dark:hover:bg-crimsondarkp3a-4 active:bg-crimsonp3a-5 dark:active:bg-crimsondarkp3a-5;
+}
+@utility bg-crimsonp3a-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-crimsonp3a-3 dark:hover:bg-crimsondarkp3a-3 active:bg-crimsonp3a-4 dark:active:bg-crimsondarkp3a-4;
+}
+@utility bg-crimsonp3a-action {
+  @apply bg-crimsonp3a-4 dark:bg-crimsondarkp3a-4 hover:bg-crimsonp3a-5 dark:hover:bg-crimsondarkp3a-5 active:bg-crimsonp3a-6 dark:active:bg-crimsondarkp3a-6;
+}
+@utility bg-crimsonp3a-solid {
+  @apply bg-crimsonp3a-9 dark:bg-crimsondarkp3a-9 hover:bg-crimsonp3a-10 dark:hover:bg-crimsondarkp3a-10;
+}
+@utility border-crimsonp3a-dim {
+  @apply border-crimsonp3a-6 dark:border-crimsondarkp3a-6;
+}
+@utility border-crimsonp3a-normal {
+  @apply border-crimsonp3a-7 dark:border-crimsondarkp3a-7 hover:border-crimsonp3a-8 dark:hover:border-crimsondarkp3a-8;
+}
+@utility divide-crimsonp3a-dim {
+  @apply divide-crimsonp3a-6 dark:divide-crimsondarkp3a-6;
+}
+@utility divide-crimsonp3a-normal {
+  @apply divide-crimsonp3a-7 dark:divide-crimsondarkp3a-7 hover:divide-crimsonp3a-8 dark:hover:divide-crimsondarkp3a-8;
+}
+@utility text-crimsonp3a-dim {
+  @apply text-crimsonp3a-11 dark:text-crimsondarkp3a-11;
+}
+@utility text-crimsonp3a-normal {
+  @apply text-crimsonp3a-12 dark:text-crimsondarkp3a-12;
+}

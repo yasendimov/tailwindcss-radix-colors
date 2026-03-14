@@ -1,0 +1,26 @@
+@theme {
+  --color-graya-1: #00000003;
+  --color-graya-2: #00000006;
+  --color-graya-3: #0000000f;
+  --color-graya-4: #00000017;
+  --color-graya-5: #0000001f;
+  --color-graya-6: #00000026;
+  --color-graya-7: #00000031;
+  --color-graya-8: #00000044;
+  --color-graya-9: #00000072;
+  --color-graya-10: #0000007c;
+  --color-graya-11: #0000009b;
+  --color-graya-12: #000000df;
+  --color-graydarka-1: #00000000;
+  --color-graydarka-2: #ffffff09;
+  --color-graydarka-3: #ffffff12;
+  --color-graydarka-4: #ffffff1b;
+  --color-graydarka-5: #ffffff22;
+  --color-graydarka-6: #ffffff2c;
+  --color-graydarka-7: #ffffff3b;
+  --color-graydarka-8: #ffffff55;
+  --color-graydarka-9: #ffffff64;
+  --color-graydarka-10: #ffffff72;
+  --color-graydarka-11: #ffffffaf;
+  --color-graydarka-12: #ffffffed;
+}

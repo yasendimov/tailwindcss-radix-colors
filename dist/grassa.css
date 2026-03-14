@@ -1,0 +1,37 @@
+@import "./grassa-colors-only.css";
+@utility bg-grassa-app {
+  @apply bg-grassa-1 dark:bg-grassdarka-1;
+}
+@utility bg-grassa-subtle {
+  @apply bg-grassa-2 dark:bg-grassdarka-2;
+}
+@utility bg-grassa-ui {
+  @apply bg-grassa-3 dark:bg-grassdarka-3 hover:bg-grassa-4 dark:hover:bg-grassdarka-4 active:bg-grassa-5 dark:active:bg-grassdarka-5;
+}
+@utility bg-grassa-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-grassa-3 dark:hover:bg-grassdarka-3 active:bg-grassa-4 dark:active:bg-grassdarka-4;
+}
+@utility bg-grassa-action {
+  @apply bg-grassa-4 dark:bg-grassdarka-4 hover:bg-grassa-5 dark:hover:bg-grassdarka-5 active:bg-grassa-6 dark:active:bg-grassdarka-6;
+}
+@utility bg-grassa-solid {
+  @apply bg-grassa-9 dark:bg-grassdarka-9 hover:bg-grassa-10 dark:hover:bg-grassdarka-10;
+}
+@utility border-grassa-dim {
+  @apply border-grassa-6 dark:border-grassdarka-6;
+}
+@utility border-grassa-normal {
+  @apply border-grassa-7 dark:border-grassdarka-7 hover:border-grassa-8 dark:hover:border-grassdarka-8;
+}
+@utility divide-grassa-dim {
+  @apply divide-grassa-6 dark:divide-grassdarka-6;
+}
+@utility divide-grassa-normal {
+  @apply divide-grassa-7 dark:divide-grassdarka-7 hover:divide-grassa-8 dark:hover:divide-grassdarka-8;
+}
+@utility text-grassa-dim {
+  @apply text-grassa-11 dark:text-grassdarka-11;
+}
+@utility text-grassa-normal {
+  @apply text-grassa-12 dark:text-grassdarka-12;
+}

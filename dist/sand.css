@@ -1,0 +1,37 @@
+@import "./sand-colors-only.css";
+@utility bg-sand-app {
+  @apply bg-sand-1 dark:bg-sanddark-1;
+}
+@utility bg-sand-subtle {
+  @apply bg-sand-2 dark:bg-sanddark-2;
+}
+@utility bg-sand-ui {
+  @apply bg-sand-3 dark:bg-sanddark-3 hover:bg-sand-4 dark:hover:bg-sanddark-4 active:bg-sand-5 dark:active:bg-sanddark-5;
+}
+@utility bg-sand-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-sand-3 dark:hover:bg-sanddark-3 active:bg-sand-4 dark:active:bg-sanddark-4;
+}
+@utility bg-sand-action {
+  @apply bg-sand-4 dark:bg-sanddark-4 hover:bg-sand-5 dark:hover:bg-sanddark-5 active:bg-sand-6 dark:active:bg-sanddark-6;
+}
+@utility bg-sand-solid {
+  @apply bg-sand-9 dark:bg-sanddark-9 hover:bg-sand-10 dark:hover:bg-sanddark-10;
+}
+@utility border-sand-dim {
+  @apply border-sand-6 dark:border-sanddark-6;
+}
+@utility border-sand-normal {
+  @apply border-sand-7 dark:border-sanddark-7 hover:border-sand-8 dark:hover:border-sanddark-8;
+}
+@utility divide-sand-dim {
+  @apply divide-sand-6 dark:divide-sanddark-6;
+}
+@utility divide-sand-normal {
+  @apply divide-sand-7 dark:divide-sanddark-7 hover:divide-sand-8 dark:hover:divide-sanddark-8;
+}
+@utility text-sand-dim {
+  @apply text-sand-11 dark:text-sanddark-11;
+}
+@utility text-sand-normal {
+  @apply text-sand-12 dark:text-sanddark-12;
+}

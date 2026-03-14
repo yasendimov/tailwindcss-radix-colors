@@ -1,0 +1,37 @@
+@import "./minta-colors-only.css";
+@utility bg-minta-app {
+  @apply bg-minta-1 dark:bg-mintdarka-1;
+}
+@utility bg-minta-subtle {
+  @apply bg-minta-2 dark:bg-mintdarka-2;
+}
+@utility bg-minta-ui {
+  @apply bg-minta-3 dark:bg-mintdarka-3 hover:bg-minta-4 dark:hover:bg-mintdarka-4 active:bg-minta-5 dark:active:bg-mintdarka-5;
+}
+@utility bg-minta-ghost {
+  @apply bg-transparent dark:bg-transparent hover:bg-minta-3 dark:hover:bg-mintdarka-3 active:bg-minta-4 dark:active:bg-mintdarka-4;
+}
+@utility bg-minta-action {
+  @apply bg-minta-4 dark:bg-mintdarka-4 hover:bg-minta-5 dark:hover:bg-mintdarka-5 active:bg-minta-6 dark:active:bg-mintdarka-6;
+}
+@utility bg-minta-solid {
+  @apply bg-minta-9 dark:bg-mintdarka-9 hover:bg-minta-10 dark:hover:bg-mintdarka-10;
+}
+@utility border-minta-dim {
+  @apply border-minta-6 dark:border-mintdarka-6;
+}
+@utility border-minta-normal {
+  @apply border-minta-7 dark:border-mintdarka-7 hover:border-minta-8 dark:hover:border-mintdarka-8;
+}
+@utility divide-minta-dim {
+  @apply divide-minta-6 dark:divide-mintdarka-6;
+}
+@utility divide-minta-normal {
+  @apply divide-minta-7 dark:divide-mintdarka-7 hover:divide-minta-8 dark:hover:divide-mintdarka-8;
+}
+@utility text-minta-dim {
+  @apply text-minta-11 dark:text-mintdarka-11;
+}
+@utility text-minta-normal {
+  @apply text-minta-12 dark:text-mintdarka-12;
+}
